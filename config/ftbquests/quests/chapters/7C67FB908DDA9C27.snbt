@@ -1,0 +1,377 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "7C67FB908DDA9C27"
+    group: "38304CE116D42477"
+    icon: "botania:orange_mystical_flower"
+    id: "7C67FB908DDA9C27"
+    order_index: 1
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["74D167980191D4C2"]
+            description: [
+                "{quest.7C67FB908DDA9C27.quests.0.description.0}"
+                "{quest.7C67FB908DDA9C27.quests.0.description.1}"
+            ]
+            id: "6B4EC672CF373BED"
+            tasks: [
+                { id: "4413AD1D40B059F7", item: "minecraft:gilded_blackstone", type: "item" }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["6B4EC672CF373BED", "4FE2A49BBA04C839"]
+            id: "0AA0F615620B11C1"
+            tasks: [
+                { id: "6D16E1ABE1C53E7D", item: "botania:apothecary_default", type: "item" }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4CB323674E911600"]
+            id: "5606D6C0AE76E5C5"
+            tasks: [{ id: "7ECF965E5C25C9BB", item: "botania:fertilizer", type: "item" }]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            dependencies: ["5606D6C0AE76E5C5"]
+            id: "4FE2A49BBA04C839"
+            tasks: [
+                {
+                    id: "3DAB5A841F732FC6"
+                    item: {
+                        Count: 1
+                        id: "itemfilters:tag"
+                        tag: { value: "botania:mystical_flowers" }
+                    }
+                    title: "Any #botania:mystical_flowers"
+                    type: "item"
+                }
+            ]
+            title: "{quest.7C67FB908DDA9C27.quests.3.title}"
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["0AA0F615620B11C1"]
+            id: "1CA5FFE85BF8D5ED"
+            tasks: [{ id: "55C6D502589E031F", item: "botania:pure_daisy", type: "item" }]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["1CA5FFE85BF8D5ED"]
+            description: [
+                "{quest.7C67FB908DDA9C27.quests.5.description.0}"
+                "{quest.7C67FB908DDA9C27.quests.5.description.1}"
+            ]
+            id: "0745AB1BB544131E"
+            tasks: [
+                { id: "61DF4F2E34C8BCF0", item: "botania:livingrock", type: "item" }
+                { id: "2A07BA5A7E6FF2DA", item: "botania:livingwood_log", type: "item" }
+            ]
+            title: "{quest.7C67FB908DDA9C27.quests.5.title}"
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["0745AB1BB544131E"]
+            id: "541FDE59155D995A"
+            tasks: [
+                { id: "3E19E7B275128771", item: "botania:mana_pool", type: "item" }
+                { id: "1ADE991ACD5646D6", item: "botania:mana_spreader", type: "item" }
+            ]
+            x: 12.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2600DDE1F3C169C7"]
+            description: ["{quest.7C67FB908DDA9C27.quests.7.description.0}"]
+            id: "074E9E82E47872CE"
+            tasks: [
+                { id: "5BB7EF01ED3A8CE6", item: "reliquary:alkahestry_altar", type: "item" }
+            ]
+            x: 12.0
+            y: -3.0
+        }
+        {
+            dependencies: ["074E9E82E47872CE"]
+            description: [
+                "{quest.7C67FB908DDA9C27.quests.8.description.0}"
+                "{quest.7C67FB908DDA9C27.quests.8.description.1}"
+                "{quest.7C67FB908DDA9C27.quests.8.description.2}"
+            ]
+            id: "007C6C26D5B70A36"
+            rewards: [
+                {
+                    count: 16
+                    id: "55CC69D865F6065E"
+                    item: "minecraft:glowstone_dust"
+                    type: "item"
+                }
+            ]
+            tasks: [
+                { id: "58E77142A19C0D25", item: "minecraft:glowstone_dust", type: "item" }
+            ]
+            x: 15.0
+            y: -3.0
+        }
+        {
+            dependencies: ["541FDE59155D995A", "007C6C26D5B70A36", "20E70824BF2A6BC2"]
+            description: ["{quest.7C67FB908DDA9C27.quests.9.description.0}"]
+            id: "626D810E76DCAA99"
+            tasks: [
+                { id: "55AC8E23F6EF213B", item: "botania:alfheim_portal", type: "item" }
+                {
+                    count: 3l
+                    id: "68E3A02B6EE17E29"
+                    item: { Count: 3, id: "botania:glimmering_livingwood_log" }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 0.0
+        }
+        {
+            dependencies: ["541FDE59155D995A"]
+            id: "143B42D2D3EA5942"
+            tasks: [
+                { id: "5309BF1476D616D5", item: "botania:mana_diamond", type: "item" }
+                { id: "23EFE703EF8EB203", item: "botania:manasteel_ingot", type: "item" }
+                { id: "04482DDAB7BF46BE", item: "botania:mana_glass", type: "item" }
+            ]
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["143B42D2D3EA5942"]
+            id: "20E70824BF2A6BC2"
+            tasks: [
+                {
+                    id: "62C277D341951015"
+                    item: "kubejs:manasteel_ingot_casing"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 3.0
+        }
+        {
+            dependencies: ["626D810E76DCAA99", "075696C9267A1E4D", "2C08FD57386D6F5E"]
+            id: "4F6F87685CBD3E78"
+            tasks: [{ id: "7916C33027D54426", item: "botania:runic_altar", type: "item" }]
+            x: 18.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4F6F87685CBD3E78"]
+            id: "59F0C6D79F948479"
+            tasks: [{ id: "408522804C35CE6E", item: "botania:rune_mana", type: "item" }]
+            x: 21.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4F6F87685CBD3E78"]
+            id: "5A8040A6A7A98E88"
+            tasks: [{ id: "17BEE9B744F80E17", item: "botania:rune_fire", type: "item" }]
+            x: 21.0
+            y: -3.0
+        }
+        {
+            dependencies: ["4F6F87685CBD3E78"]
+            id: "79441EAC4BB7FED7"
+            tasks: [{ id: "2DD2C6F1F6F6DE93", item: "botania:rune_water", type: "item" }]
+            x: 21.0
+            y: -6.0
+        }
+        {
+            dependencies: ["4F6F87685CBD3E78"]
+            id: "4FC674DC26053AB3"
+            tasks: [{ id: "1E3BD812D16EE79B", item: "botania:rune_earth", type: "item" }]
+            x: 21.0
+            y: 3.0
+        }
+        {
+            dependencies: ["4F6F87685CBD3E78"]
+            id: "4F59E5ACC3FAC3E5"
+            tasks: [{ id: "55E76600EAF870DF", item: "botania:rune_air", type: "item" }]
+            x: 21.0
+            y: 6.0
+        }
+        {
+            dependencies: [
+                "5A8040A6A7A98E88"
+                "79441EAC4BB7FED7"
+                "59F0C6D79F948479"
+                "4F59E5ACC3FAC3E5"
+                "4FC674DC26053AB3"
+            ]
+            id: "3C5BB31811E43263"
+            tasks: [{ id: "2138C86B475D5E84", item: "botania:terra_plate", type: "item" }]
+            x: 24.0
+            y: 0.0
+        }
+        {
+            dependencies: ["3C5BB31811E43263"]
+            id: "56BB63BB86EDC639"
+            tasks: [{ id: "1854ABB87DEE1313", item: "botania:orechid", type: "item" }]
+            x: 27.0
+            y: -3.0
+        }
+        {
+            dependencies: ["3C5BB31811E43263"]
+            description: ["{quest.7C67FB908DDA9C27.quests.20.description.0}"]
+            id: "21F05FB9C7394F5B"
+            tasks: [
+                { id: "6A0B8EF58E8E0173", item: "botania:orechid_ignem", type: "item" }
+            ]
+            x: 27.0
+            y: 3.0
+        }
+        {
+            dependencies: ["3C5BB31811E43263"]
+            id: "493679DCE1312D1D"
+            tasks: [
+                { id: "0FEEF2C14DC1AE88", item: "mythicbotany:mana_infuser", type: "item" }
+            ]
+            x: 27.0
+            y: 0.0
+        }
+        {
+            dependencies: ["493679DCE1312D1D"]
+            id: "6982DE55B0ECDA72"
+            tasks: [
+                { id: "1929A06661F89BEB", item: "mythicbotany:alfsteel_ingot", type: "item" }
+            ]
+            x: 30.0
+            y: 0.0
+        }
+        {
+            dependencies: ["6982DE55B0ECDA72"]
+            id: "2F70BEC40F7EE506"
+            tasks: [{ id: "0474C47695F568B9", item: "botania:gaia_pylon", type: "item" }]
+            x: 33.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2F70BEC40F7EE506"]
+            id: "3480FDD6C5018F27"
+            tasks: [
+                { id: "7BD6A13160D2474A", item: "botania:life_essence", type: "item" }
+                { id: "276B12AEFFA0A012", item: "botania:gaia_ingot", type: "item" }
+            ]
+            x: 36.0
+            y: 0.0
+        }
+        {
+            dependencies: ["541FDE59155D995A"]
+            id: "7C3ABBB18FE06885"
+            rewards: [
+                { count: 2, id: "64BE690B213BDF11", item: "botania:munchdew", type: "item" }
+            ]
+            tasks: [{ id: "2C7B96E43306BC92", item: "botania:endoflame", type: "item" }]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["7C3ABBB18FE06885"]
+            description: ["{quest.7C67FB908DDA9C27.quests.26.description.0}"]
+            id: "294322040063C1BB"
+            tasks: [
+                {
+                    id: "1C231F697EF8AA98"
+                    item: "ars_nouveau:blue_archwood_leaves"
+                    type: "item"
+                }
+                {
+                    id: "51FA208481A93B99"
+                    item: "ars_nouveau:green_archwood_leaves"
+                    type: "item"
+                }
+                {
+                    id: "028AD26DA44200AB"
+                    item: "ars_nouveau:purple_archwood_leaves"
+                    type: "item"
+                }
+                {
+                    id: "4A3C63D7AC5930C0"
+                    item: "ars_nouveau:red_archwood_leaves"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            dependencies: ["56BB63BB86EDC639"]
+            id: "11F87912ECFD3F47"
+            tasks: [
+                { id: "5373C8670C5F5675", item: "ae2:sky_stone_block", type: "item" }
+                { id: "5E1DB34560ABCDAA", item: "minecraft:andesite", type: "item" }
+                { id: "1FB5A91341BBC3BF", item: "bloodmagic:ritualstone", type: "item" }
+            ]
+            x: 30.0
+            y: -3.0
+        }
+        {
+            dependencies: ["21F05FB9C7394F5B"]
+            id: "59B99311D88475AD"
+            tasks: [
+                { id: "30EB7A94C1CCF487", item: "minecraft:netherrack", type: "item" }
+                { id: "1F29E89305E8C4BC", item: "minecraft:magma_block", type: "item" }
+                { id: "63DBABD6E8F2AAD4", item: "minecraft:deepslate", type: "item" }
+            ]
+            x: 30.0
+            y: 3.0
+        }
+        {
+            dependencies: ["3B80437773134F1C", "37B4E92C2491C64C"]
+            id: "314799E11298DBFE"
+            tasks: [
+                {
+                    id: "166C058CF25A07E2"
+                    item: "botania:cosmetic_thinking_hand"
+                    type: "item"
+                }
+            ]
+            x: 36.0
+            y: -3.0
+        }
+        {
+            dependencies: ["6982DE55B0ECDA72"]
+            id: "3B80437773134F1C"
+            tasks: [
+                {
+                    id: "1A8956D19C87A04E"
+                    item: "botania:cosmetic_questgiver_mark"
+                    type: "item"
+                }
+            ]
+            x: 33.0
+            y: -3.0
+        }
+        {
+            dependencies: ["58049883B7BE6D96"]
+            description: ["{quest.7C67FB908DDA9C27.quests.31.description.0}"]
+            id: "7B8D718D153E7CC7"
+            shape: "octagon"
+            size: 2.0
+            tasks: [
+                {
+                    id: "434199CA20BB74F1"
+                    item: "mythicbotany:central_rune_holder"
+                    type: "item"
+                }
+                { id: "34E911EC8A01C391", item: "mythicbotany:rune_holder", type: "item" }
+                { id: "2CE61ADACEB0DE99", item: "mythicbotany:petrunia", type: "item" }
+            ]
+            x: 27.0
+            y: -6.0
+        }
+    ]
+    title: "{quest.7C67FB908DDA9C27.title}"
+}

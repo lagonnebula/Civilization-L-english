@@ -1,0 +1,399 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "771EC0B7C4BE2135"
+    group: "0B7D666BC0BB1684"
+    icon: "farmersdelight:roast_chicken_block"
+    id: "771EC0B7C4BE2135"
+    order_index: 3
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "33E6BB818FADDAAA"
+                "2FE5DC92805540E2"
+                "0F87DB79329FE903"
+                "36BE52A0ED2216BF"
+                "32758E91353C8DFC"
+                "0283CA9F4B9BE802"
+                "3DDA1295F0B23195"
+                "68E63B33A5ABC3D7"
+                "5DF44A5DF3B12314"
+                "253D2E15E7F41CD3"
+                "352F5FB53F892943"
+                "6952504D1840A7AE"
+                "1F73C77ADB47D57D"
+                "3EFB50AB61350133"
+                "4CD5C0CF0AB53798"
+                "0EDAAB3088A8EA78"
+                "7BB65F50F5672022"
+                "7E0475142CEAA85F"
+                "62307459844EBB82"
+                "6F3BDFE2592D4C5E"
+                "4AA4B1073C1C9E85"
+                "6CDF90927975D5A9"
+            ]
+            id: "5A5AA383CC0CD973"
+            rewards: [{ id: "6885E1F26CF3A8C6", item: "kubejs:food_page", type: "item" }]
+            tasks: [
+                {
+                    id: "16C615D6E4A8F49B"
+                    title: "{quest.771EC0B7C4BE2135.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            title: "{quest.771EC0B7C4BE2135.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "3EFB50AB61350133"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3F958BAE4EF7567C"
+                    item: "farmersdelight:honey_glazed_ham_block"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "4CD5C0CF0AB53798"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "289F8028F4B30A42"
+                    item: "farmersdelight:shepherds_pie_block"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "0F87DB79329FE903"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3450CFB12DD420EE"
+                    item: "croptopia:figgy_pudding"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "1F73C77ADB47D57D"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "4919F93B4294B9CF"
+                    item: "farmersdelight:grilled_salmon"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "68E63B33A5ABC3D7"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "02EAE71EBAAAD294"
+                    item: "farmersdelight:squid_ink_pasta"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "5DF44A5DF3B12314"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "259FC38A5A895C04"
+                    item: "croptopia:croque_monsieur"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["51F8EE9B326E8352"]
+            id: "0EDAAB3088A8EA78"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3076F552ED6C03BA"
+                    item: "croptopia:treacle_tart"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["5281CEFFE4AAE4EE"]
+            description: ["{quest.771EC0B7C4BE2135.quests.8.description.0}"]
+            id: "33E6BB818FADDAAA"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "294C5EDB85689D85"
+                    item: "croptopia:cinnamon_roll"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "36BE52A0ED2216BF"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "2FE4CE3B9B5BBBAA"
+                    item: "croptopia:cornish_pasty"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "32758E91353C8DFC"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3F0C6C8FF5C04000"
+                    item: "farmersdelight:roast_chicken_block"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 0.0
+        }
+        {
+            id: "0283CA9F4B9BE802"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "0E876F8DD9F7B885"
+                    item: "farmersdelight:stuffed_pumpkin_block"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            id: "6952504D1840A7AE"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "02193754E52D3697"
+                    item: "croptopia:croque_madame"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+        {
+            id: "2FE5DC92805540E2"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "05B1AA4FF29B02BB"
+                    item: "arsdelight:mendosteen_chicken"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -6.0
+        }
+        {
+            id: "253D2E15E7F41CD3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "301831C116A389F6"
+                    item: "arsdelight:bastion_pork"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -6.0
+        }
+        {
+            id: "352F5FB53F892943"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "416C718AB207CE16"
+                    item: "arsdelight:bombegrante_steak"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 6.0
+        }
+        {
+            id: "3DDA1295F0B23195"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "0FEDAC25DFB28208"
+                    item: "arsdelight:frostaya_mutton"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 6.0
+        }
+        {
+            id: "7BB65F50F5672022"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 800l
+                    id: "672EA9284EE77A60"
+                    item: "farmersdelight:bacon"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -3.0
+        }
+        {
+            id: "6F3BDFE2592D4C5E"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 800l
+                    id: "1FF5A9EBB4F38F12"
+                    item: "farmersdelight:mutton_chops"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -6.0
+        }
+        {
+            id: "62307459844EBB82"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 800l
+                    id: "4DEA1C5EFE4A708C"
+                    item: "farmersdelight:chicken_cuts"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            id: "7E0475142CEAA85F"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 800l
+                    id: "3F5861A1CF68C6C3"
+                    item: "farmersdelight:minced_beef"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            id: "4AA4B1073C1C9E85"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 400l
+                    id: "3D0101C78F0D5A8E"
+                    item: "arsdelight:bowl_of_wilden_salad"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 6.0
+        }
+        {
+            id: "6CDF90927975D5A9"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "4E10FEFECF7D14CB"
+                    item: "arsdelight:arch_soup"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            dependencies: ["36F394CF78105375"]
+            id: "51F8EE9B326E8352"
+            tasks: [
+                { id: "3B4B69015693A17D", item: "minecraft:honey_bottle", type: "item" }
+            ]
+            x: -6.0
+            y: 3.0
+        }
+        {
+            id: "36F394CF78105375"
+            shape: "hexagon"
+            tasks: [
+                { id: "11508E5DC61C1C44", item: "minecraft:bee_spawn_egg", type: "item" }
+            ]
+            x: -9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["0B7BA6B4CC3DC1BD"]
+            description: ["{quest.771EC0B7C4BE2135.quests.25.description.0}"]
+            id: "5281CEFFE4AAE4EE"
+            tasks: [{ id: "1703657E3F681370", item: "croptopia:cinnamon", type: "item" }]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            description: ["{quest.771EC0B7C4BE2135.quests.26.description.0}"]
+            id: "0B7BA6B4CC3DC1BD"
+            shape: "hexagon"
+            tasks: [
+                { id: "723F8EEA2A4E4949", item: "croptopia:cinnamon_sapling", type: "item" }
+                { id: "2D70DCC840440176", item: "croptopia:cinnamon_log", type: "item" }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+    ]
+    title: "{quest.771EC0B7C4BE2135.title}"
+}

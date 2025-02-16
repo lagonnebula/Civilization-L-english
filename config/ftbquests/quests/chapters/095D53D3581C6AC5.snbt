@@ -1,0 +1,94 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "095D53D3581C6AC5"
+    group: "38304CE116D42477"
+    icon: "kubejs:civilization"
+    id: "095D53D3581C6AC5"
+    order_index: 8
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "4EDD4118AAB1E276"
+                "3D634332E66BA4CF"
+                "4C795D9F41E9F8E7"
+                "0F4493E1D563A21D"
+                "6E36F54B00A9562F"
+                "420F1CD3BE54F024"
+                "35D778FC23679FF2"
+                "0B0781A39B029E9E"
+            ]
+            description: ["{quest.095D53D3581C6AC5.quests.0.description.0}"]
+            id: "48E2EA097613DD39"
+            shape: "gear"
+            tasks: [{ id: "63D286A6846C7DE6", item: "kubejs:civilization", type: "item" }]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "0F4493E1D563A21D"
+            tasks: [{ id: "3FF68AE7155E3C29", item: "kubejs:farming_page", type: "item" }]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "4EDD4118AAB1E276"
+            tasks: [{ id: "73A50EEDBFF74FFC", item: "kubejs:forestry_page", type: "item" }]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "3D634332E66BA4CF"
+            tasks: [{ id: "49B5E0D196CA4E7F", item: "kubejs:fishery_page", type: "item" }]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            id: "4C795D9F41E9F8E7"
+            tasks: [{ id: "57628FFD9DD80A90", item: "kubejs:food_page", type: "item" }]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "6E36F54B00A9562F"
+            tasks: [{ id: "1FEFE9BFFED1E2DC", item: "kubejs:monster_page", type: "item" }]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "420F1CD3BE54F024"
+            tasks: [
+                {
+                    id: "1E589F2C1AF38EB4"
+                    item: "extendedcrafting:ultimate_singularity"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "35D778FC23679FF2"
+            tasks: [
+                { id: "28E766782C349209", item: "kubejs:rough_wrought_spine", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            description: ["{quest.095D53D3581C6AC5.quests.8.description.0}"]
+            id: "0B0781A39B029E9E"
+            tasks: [
+                {
+                    id: "20685688133599D3"
+                    title: "{quest.095D53D3581C6AC5.quests.8.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+    ]
+    title: "{quest.095D53D3581C6AC5.title}"
+}

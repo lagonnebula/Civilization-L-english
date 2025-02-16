@@ -1,0 +1,209 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "507330DF92BE29BF"
+    group: "0B7D666BC0BB1684"
+    icon: "minecraft:pufferfish"
+    id: "507330DF92BE29BF"
+    order_index: 2
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "220E9B73CDF52B3B"
+                "349BC22A3B2F0D5A"
+                "6A49F63DE8B143E3"
+                "106BCA9AF9665681"
+                "173F3C1A27E1AB72"
+                "13A131A6B1027E7D"
+                "19E646E4A8AEFFA7"
+                "084D1F701208AE38"
+                "07E5F65D0E5C7029"
+                "442A15CB4D64349B"
+                "0C1A954BE3B6BF09"
+                "26ABE168B528B9C5"
+            ]
+            id: "6E46DBFC635D286F"
+            rewards: [{ id: "06F87AABDEDD3AD7", item: "kubejs:fishery_page", type: "item" }]
+            tasks: [
+                {
+                    id: "141C94B7B8ECC070"
+                    title: "{quest.507330DF92BE29BF.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            title: "{quest.507330DF92BE29BF.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "13A131A6B1027E7D"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "33031AEC5C5DC257"
+                    item: "minecraft:tropical_fish"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "349BC22A3B2F0D5A"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "5E3FD9EE8FE28016"
+                    item: "minecraft:cod"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "19E646E4A8AEFFA7"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "65D3609CA0C2A62C"
+                    item: "minecraft:pufferfish"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "220E9B73CDF52B3B"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "724D324AD7C23EEC"
+                    item: "minecraft:salmon"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "442A15CB4D64349B"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "2412F15BEBCA80A4"
+                    item: "minecraft:ink_sac"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "084D1F701208AE38"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "0A849CB9C5BF67CA"
+                    item: "croptopia:oyster"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            id: "6A49F63DE8B143E3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "74C1945FF8D71165"
+                    item: "croptopia:anchovy"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "106BCA9AF9665681"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "7F2A0C084077551E"
+                    item: "croptopia:clam"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "0C1A954BE3B6BF09"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "3D6F8C3AC925F4D9"
+                    item: "croptopia:shrimp"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "173F3C1A27E1AB72"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "595AF3C2B5C548E8"
+                    item: "minecraft:nautilus_shell"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 0.0
+        }
+        {
+            id: "26ABE168B528B9C5"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "656E150C3030E23A"
+                    item: "croptopia:tuna"
+                    type: "item"
+                }
+            ]
+            x: 6.5
+            y: 0.0
+        }
+        {
+            id: "07E5F65D0E5C7029"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "30A57A838675B69B"
+                    item: "croptopia:crab"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+    ]
+    title: "{quest.507330DF92BE29BF.title}"
+}

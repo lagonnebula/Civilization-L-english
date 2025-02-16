@@ -1,0 +1,399 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "2D3341665F965B95"
+    group: "0B7D666BC0BB1684"
+    icon: "croptopia:chile_pepper"
+    id: "2D3341665F965B95"
+    order_index: 0
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "4943B983B4F1AFF1"
+                "396409FCC467FC9F"
+                "27DA72ED3E4292D4"
+                "35FB8ACD5A3D19AF"
+                "5D45E72A56174DFF"
+                "461ACA96499FF83E"
+                "3C94F45FAA739F16"
+                "2AB4D084CA811C1F"
+                "4709C945BD382C44"
+                "65A488774359C17A"
+                "1A95EC746362D173"
+                "66BFE267AABD6277"
+                "43A3371C9E8801E4"
+                "04FF1294D25C0C41"
+                "18224D4B2E3DC782"
+                "1FEB94D61663C708"
+                "1CBEDDD0C9EE8D97"
+                "0B4D94310623D6E8"
+                "1E986A444DD11995"
+                "28C4EB2867831AB6"
+                "181FDE86F3FA10DA"
+                "5837448F74EFB4EC"
+                "1F2CC6856A2763F2"
+                "35290DB2D69868BD"
+            ]
+            id: "13C96F76ADAE5AE0"
+            rewards: [{ id: "523E95235761B307", item: "kubejs:farming_page", type: "item" }]
+            tasks: [
+                {
+                    id: "2B85C0D063CB20AD"
+                    title: "{quest.2D3341665F965B95.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            title: "{quest.2D3341665F965B95.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "461ACA96499FF83E"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "43A8050253822E22"
+                    item: { Count: 20000, id: "croptopia:artichoke" }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "3C94F45FAA739F16"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "657C9A3D1BBADFFF"
+                    item: "croptopia:asparagus"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            id: "35290DB2D69868BD"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "2E7E08157E44CA3F"
+                    item: { Count: 10000, id: "croptopia:barley" }
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            id: "2AB4D084CA811C1F"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "200D3FE4B8827CF3"
+                    item: { Count: 10000, id: "croptopia:basil" }
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "27DA72ED3E4292D4"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "29C3ED0F9D0BADD2"
+                    item: { Count: 10000, id: "croptopia:bellpepper" }
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -3.0
+        }
+        {
+            id: "4709C945BD382C44"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "67775602332BBBDE"
+                    item: { Count: 10000, id: "croptopia:blackbean" }
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -6.0
+        }
+        {
+            id: "1CBEDDD0C9EE8D97"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "231A7EDE4BA193EC"
+                    item: { Count: 10000, id: "croptopia:blackberry" }
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -6.0
+        }
+        {
+            id: "28C4EB2867831AB6"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "68EE579BB50FE6AA"
+                    item: { Count: 10000, id: "croptopia:blueberry" }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "1E986A444DD11995"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "0D16DBD8A79F03AE"
+                    item: { Count: 10000, id: "croptopia:broccoli" }
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            id: "5D45E72A56174DFF"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "7B776DCC2F5D8041"
+                    item: { Count: 10000, id: "croptopia:cabbage" }
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -6.0
+        }
+        {
+            id: "5837448F74EFB4EC"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "0651849D058FBBF4"
+                    item: "croptopia:cantaloupe"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 0.0
+        }
+        {
+            id: "04FF1294D25C0C41"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "2932919EF10C8325"
+                    item: { Count: 10000, id: "croptopia:cauliflower" }
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "4943B983B4F1AFF1"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "3A059B67A64B444A"
+                    item: { Count: 10000, id: "croptopia:celery" }
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "396409FCC467FC9F"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "4EA1C5BA2BE0BFD0"
+                    item: { Count: 10000, id: "croptopia:chile_pepper" }
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            id: "66BFE267AABD6277"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "134D89DF048E1F83"
+                    item: "croptopia:vanilla"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 3.0
+        }
+        {
+            id: "1F2CC6856A2763F2"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "1D3CAF37273C5455"
+                    item: "croptopia:corn"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "65A488774359C17A"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "4118AA673EC02DDC"
+                    item: "croptopia:cranberry"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "181FDE86F3FA10DA"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "668D37999E9DB9DC"
+                    item: "croptopia:cucumber"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "1A95EC746362D173"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "2B23D00CEA694B98"
+                    item: "croptopia:currant"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            id: "43A3371C9E8801E4"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "638E4210A3D4740D"
+                    item: "croptopia:eggplant"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 6.0
+        }
+        {
+            id: "0B4D94310623D6E8"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "76BD68183378A19A"
+                    item: "croptopia:elderberry"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 6.0
+        }
+        {
+            id: "18224D4B2E3DC782"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "2F7C6FDA45EA54CB"
+                    item: "croptopia:garlic"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+        {
+            id: "1FEB94D61663C708"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "32523DDA26E9624B"
+                    item: "croptopia:ginger"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            id: "35FB8ACD5A3D19AF"
+            size: 1.0
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10000l
+                    id: "4F212A37E3F19D91"
+                    item: "croptopia:grape"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 6.0
+        }
+    ]
+    title: "{quest.2D3341665F965B95.title}"
+}

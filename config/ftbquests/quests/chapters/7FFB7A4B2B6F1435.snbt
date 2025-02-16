@@ -1,0 +1,243 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "7FFB7A4B2B6F1435"
+    group: "38304CE116D42477"
+    icon: "bloodmagic:soulforge"
+    id: "7FFB7A4B2B6F1435"
+    order_index: 7
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["58049883B7BE6D96"]
+            id: "60E988BF224A6774"
+            tasks: [{ id: "67EFE868D789ABF8", item: "bloodmagic:altar", type: "item" }]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["60E988BF224A6774"]
+            id: "22DCA99A879331F7"
+            tasks: [{ id: "5F5AADAFFAADD360", item: "bloodmagic:blankrune", type: "item" }]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["60E988BF224A6774"]
+            id: "68AF90FD32569EE7"
+            tasks: [
+                { id: "4927C3ABA3A66C38", item: "bloodmagic:incensealtar", type: "item" }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            id: "5B96740E67863F2D"
+            tasks: [{ id: "573ACFA3E69225BE", item: "bloodmagic:speedrune", type: "item" }]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            id: "3E3B52F40970AAF6"
+            tasks: [
+                { id: "12D67567BC01D516", item: "bloodmagic:sacrificerune", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            id: "64CDB5498EE7C73D"
+            tasks: [
+                { id: "217CD3074E961682", item: "bloodmagic:selfsacrificerune", type: "item" }
+            ]
+            x: 2.0
+            y: -3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            id: "1A2478A833297AF4"
+            tasks: [
+                { id: "0526A5D6250B422E", item: "bloodmagic:dislocationrune", type: "item" }
+            ]
+            x: 4.0
+            y: -3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            id: "78FCBF2F043EFD79"
+            tasks: [
+                { id: "38F53844B248F0A3", item: "bloodmagic:altarcapacityrune", type: "item" }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            dependencies: ["22DCA99A879331F7"]
+            description: [
+                "{quest.7FFB7A4B2B6F1435.quests.8.description.0}"
+                ""
+                "{quest.7FFB7A4B2B6F1435.quests.8.description.2}"
+            ]
+            id: "1E8C77E945A33D89"
+            rewards: [
+                {
+                    count: 320
+                    id: "140C2E037D69D0D6"
+                    item: "bloodmagic:simplekey"
+                    type: "item"
+                }
+                {
+                    count: 4
+                    id: "0D34BD4D218D1FE0"
+                    item: "bloodmagic:mineentrancekey"
+                    type: "item"
+                }
+                { count: 4, id: "246B1BE2F0502204", item: "bloodmagic:minekey", type: "item" }
+            ]
+            tasks: [
+                { id: "21979C5F55552A02", item: "bloodmagic:masterritualstone", type: "item" }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "01072BACD793C158"
+            tasks: [
+                { id: "3B37294C49FB1399", item: "bloodmagic:speedrune2", type: "item" }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "26CA431AEC9B8DE4"
+            tasks: [
+                { id: "6F675D04AB289C73", item: "bloodmagic:sacrificerune2", type: "item" }
+            ]
+            x: 12.0
+            y: -1.5
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "44DB997958D99004"
+            tasks: [
+                {
+                    id: "78060CDF9254351C"
+                    item: "bloodmagic:selfsacrificerune2"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "5B0862EBC13FB150"
+            tasks: [
+                { id: "6C77E92BCE5ABEB2", item: "bloodmagic:dislocationrune2", type: "item" }
+            ]
+            x: 12.0
+            y: 1.5
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "6FDB32DBCA8939E5"
+            tasks: [
+                {
+                    id: "248FD8FDD7185E4E"
+                    item: "bloodmagic:altarcapacityrune2"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "2E3D4D3BB20747C8"
+            tasks: [
+                {
+                    id: "0E4C19CF07B3D40C"
+                    item: "bloodmagic:bettercapacityrune2"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 1.5
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "5909F1971744E853"
+            tasks: [
+                { id: "5741A092BB4C75A0", item: "bloodmagic:orbcapacityrune2", type: "item" }
+            ]
+            x: 9.0
+            y: -1.5
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "4940E61578DA7D5A"
+            tasks: [
+                { id: "177CB47DAC325D49", item: "bloodmagic:accelerationrune2", type: "item" }
+            ]
+            x: 12.0
+            y: -3.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "12609DE245F218AC"
+            tasks: [
+                { id: "275F22560FCC5C2B", item: "bloodmagic:chargingrune2", type: "item" }
+            ]
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["1E8C77E945A33D89"]
+            id: "334D356A96C56D16"
+            tasks: [
+                {
+                    id: "36A7A57530125D56"
+                    item: "bloodmagic:largebloodstonebrick"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            dependencies: ["60E988BF224A6774"]
+            id: "5A4175D471D15341"
+            tasks: [{ id: "2D644E089592357C", item: "bloodmagic:soulforge", type: "item" }]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            dependencies: ["60E988BF224A6774"]
+            id: "574A336BB9681507"
+            tasks: [
+                { id: "2615AF0B1842BB89", item: "bloodmagic:alchemytable", type: "item" }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["60E988BF224A6774"]
+            id: "4254EC6744B9C9C0"
+            tasks: [
+                {
+                    id: "1470B74EC6FE4A9A"
+                    item: "bloodmagic:alchemicalreactionchamber"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+    ]
+    title: "{quest.7FFB7A4B2B6F1435.title}"
+}

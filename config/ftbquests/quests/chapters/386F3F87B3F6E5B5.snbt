@@ -1,0 +1,284 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "386F3F87B3F6E5B5"
+    group: "0B7D666BC0BB1684"
+    icon: "minecraft:echo_shard"
+    id: "386F3F87B3F6E5B5"
+    order_index: 4
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "0DD0D4DD77548A58"
+                "03FC41AD77492239"
+                "026708EFF4759AD8"
+                "314E04307CDA26AC"
+                "01F546215F1B86A6"
+                "64F120B0BB5987F2"
+                "0A1D476AAF63D29B"
+                "0D34178555DACA5E"
+                "388E62A326084FD3"
+                "07D7DDA6DB9A0CBD"
+                "6EF16CEB8B2374EE"
+                "273607FF6CD095E3"
+                "2D6FEA0DB93293AB"
+                "27277DF49E85020A"
+                "72D7193E2DA676B3"
+                "60E988BF224A6774"
+            ]
+            id: "48F85421B43BA7A5"
+            rewards: [{ id: "0B3A0EF200FD98F7", item: "kubejs:monster_page", type: "item" }]
+            tasks: [
+                {
+                    id: "4B7F7C49DD10B125"
+                    title: "{quest.386F3F87B3F6E5B5.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            title: "{quest.386F3F87B3F6E5B5.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "548618734FEE6819"
+            tasks: [{ id: "06DEA031F120B755", item: "minecraft:dragon_egg", type: "item" }]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["548618734FEE6819"]
+            id: "730E45F591CF5226"
+            tasks: [
+                {
+                    id: "63C45EB9401A4B16"
+                    item: "kubejs:end_dragon_blood_bucket"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["730E45F591CF5226"]
+            id: "30644C8A195B36B0"
+            tasks: [
+                { id: "52D175253BB5ED11", item: "kubejs:end_dragon_slate", type: "item" }
+            ]
+            x: 9.0
+            y: -6.0
+        }
+        {
+            dependencies: ["30644C8A195B36B0"]
+            id: "27277DF49E85020A"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "06548BB410447AB6"
+                    item: "kubejs:end_dragon_tribute"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -6.0
+        }
+        {
+            id: "2D6FEA0DB93293AB"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 10l
+                    id: "1308A2209383FF6A"
+                    item: "ars_nouveau:wilden_tribute"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "0D34178555DACA5E"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "3628B8884FD1C282"
+                    item: "kubejs:warden_tribute"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            id: "72D7193E2DA676B3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 500l
+                    id: "744579503D78DB25"
+                    item: "kubejs:wither_tribute"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "01F546215F1B86A6"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "5D6232CBFF87D95A"
+                    item: "kubejs:guardian_tribute"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            id: "64F120B0BB5987F2"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "166D518FA56D6F4A"
+                    item: "kubejs:stalker_tribute"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "0DD0D4DD77548A58"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "41C7890FBA4334B1"
+                    item: "kubejs:hunter_tribute"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "03FC41AD77492239"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "09837FB6220286F5"
+                    item: "kubejs:zombie_tribute"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            id: "314E04307CDA26AC"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "4BD835B520FE25D7"
+                    item: "kubejs:skeleton_tribute"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "0A1D476AAF63D29B"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "5D20C7FE3866BF25"
+                    item: "kubejs:wither_skeleton_tribute"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "388E62A326084FD3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "7381C1B090182B22"
+                    item: "kubejs:witch_tribute"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "6EF16CEB8B2374EE"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "189B45F6D879B3CE"
+                    item: "kubejs:creeper_tribute"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -6.0
+        }
+        {
+            id: "026708EFF4759AD8"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "6FAC7CF19F7AF397"
+                    item: "kubejs:spider_tribute"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "273607FF6CD095E3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "1F933D5AF73942C6"
+                    item: "kubejs:cave_spider_tribute"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            id: "07D7DDA6DB9A0CBD"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 1000l
+                    id: "24045496CFECF874"
+                    item: "kubejs:end_man_tribute"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+    ]
+    title: "{quest.386F3F87B3F6E5B5.title}"
+}

@@ -1,0 +1,402 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "70BC973DDE20E507"
+    group: "38304CE116D42477"
+    icon: "industrialforegoing:machine_frame_advanced"
+    id: "70BC973DDE20E507"
+    order_index: 3
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["5A85B10DCB26E1AA"]
+            id: "6A9CDBB018C25045"
+            tasks: [
+                {
+                    id: "1595F1866BB26226"
+                    item: "industrialforegoing:machine_frame_pity"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["6A9CDBB018C25045"]
+            id: "016975B692C6ABAB"
+            tasks: [
+                {
+                    id: "1DA8326B86DE422F"
+                    item: "industrialforegoing:fluid_extractor"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["016975B692C6ABAB"]
+            id: "17BE5414833520DA"
+            tasks: [
+                {
+                    id: "4CA9915E82B360A1"
+                    item: "industrialforegoing:latex_processing_unit"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["17BE5414833520DA"]
+            id: "581BCEE508BE5154"
+            tasks: [
+                { id: "565F5496977C1309", item: "industrialforegoing:plastic", type: "item" }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["581BCEE508BE5154"]
+            id: "2C08FD57386D6F5E"
+            tasks: [
+                {
+                    id: "3258042C73B6939E"
+                    item: "industrialforegoing:dissolution_chamber"
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "335718CFB073255D"
+            tasks: [
+                {
+                    id: "6C35FF277B955867"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:speed_addon_1"
+                        tag: { TitaniumAugment: { Speed: 2f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["335718CFB073255D"]
+            id: "6265624568B3D604"
+            tasks: [
+                {
+                    id: "2F653978DC83E86F"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:speed_addon_2"
+                        tag: { TitaniumAugment: { Speed: 3f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 6.0
+        }
+        {
+            dependencies: ["6265624568B3D604"]
+            id: "3CC8CBB4AB364E22"
+            tasks: [
+                {
+                    id: "7D304EDCA719AED5"
+                    item: {
+                        Count: 1
+                        id: "mifa:speed_addon_3"
+                        tag: { TitaniumAugment: { Speed: 4f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 9.0
+        }
+        {
+            dependencies: ["3CC8CBB4AB364E22"]
+            id: "0E0098E9204EFCAC"
+            tasks: [
+                {
+                    id: "0E9FB05A366E6A57"
+                    item: {
+                        Count: 1
+                        id: "mifa:speed_addon_4"
+                        tag: { TitaniumAugment: { Speed: 5f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 12.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "61A67C4CE314F469"
+            tasks: [
+                {
+                    id: "673C5393F2D539D7"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:processing_addon_1"
+                        tag: { TitaniumAugment: { Processing: 2f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["61A67C4CE314F469"]
+            id: "26F26634EB2D9DFC"
+            tasks: [
+                {
+                    id: "6959D39B0AECC8C4"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:processing_addon_2"
+                        tag: { TitaniumAugment: { Processing: 3f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 6.0
+        }
+        {
+            dependencies: ["26F26634EB2D9DFC"]
+            id: "7C2D070B3F630D9B"
+            tasks: [
+                {
+                    id: "7CC650DD7F0DB15A"
+                    item: {
+                        Count: 1
+                        id: "mifa:processing_addon_3"
+                        tag: { TitaniumAugment: { Processing: 4f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 9.0
+        }
+        {
+            dependencies: ["7C2D070B3F630D9B"]
+            id: "0D18936D479DE905"
+            tasks: [
+                {
+                    id: "536B82D2ABC386E9"
+                    item: {
+                        Count: 1
+                        id: "mifa:processing_addon_4"
+                        tag: { TitaniumAugment: { Processing: 5f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 12.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "17736C3C84CA4919"
+            tasks: [
+                {
+                    id: "464B2B902D7EE585"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:efficiency_addon_1"
+                        tag: { TitaniumAugment: { Efficiency: 0.9f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 3.0
+        }
+        {
+            dependencies: ["17736C3C84CA4919"]
+            id: "38212DCF24B19675"
+            tasks: [
+                {
+                    id: "1F15399889CB7ACD"
+                    item: {
+                        Count: 1
+                        id: "industrialforegoing:efficiency_addon_2"
+                        tag: { TitaniumAugment: { Efficiency: 0.8f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 6.0
+        }
+        {
+            dependencies: ["38212DCF24B19675"]
+            id: "11FAA0808A20FFF7"
+            tasks: [
+                {
+                    id: "15BB58A58B1F10BF"
+                    item: {
+                        Count: 1
+                        id: "mifa:efficiency_addon_3"
+                        tag: { TitaniumAugment: { Efficiency: 0.7f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 9.0
+        }
+        {
+            dependencies: ["11FAA0808A20FFF7"]
+            id: "0669BDEAE22B7E65"
+            tasks: [
+                {
+                    id: "4E719F90C2278D50"
+                    item: {
+                        Count: 1
+                        id: "mifa:efficiency_addon_4"
+                        tag: { TitaniumAugment: { Efficiency: 0.6f } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 12.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "73C6A809976D30C8"
+            tasks: [
+                { id: "28875804BEFF077E", item: "minecraft:glowstone_dust", type: "item" }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["581BCEE508BE5154"]
+            id: "075696C9267A1E4D"
+            tasks: [
+                {
+                    id: "7629B73EC908FEFF"
+                    item: "industrialforegoing:mob_slaughter_factory"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "7195C9440356D8EA"
+            tasks: [
+                {
+                    id: "4D7AD1B2447A6F45"
+                    item: "industrialforegoing:machine_frame_simple"
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: -3.0
+        }
+        {
+            dependencies: ["7195C9440356D8EA"]
+            id: "26D40ACD293B755F"
+            tasks: [
+                {
+                    id: "38BFD3BFE3320FBB"
+                    item: "industrialforegoing:machine_frame_advanced"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: -3.0
+        }
+        {
+            dependencies: ["26D40ACD293B755F", "556AB7AFC0126B19"]
+            id: "07FA482BD9958430"
+            tasks: [
+                {
+                    id: "13336AABD591A8AE"
+                    item: "industrialforegoing:machine_frame_supreme"
+                    type: "item"
+                }
+            ]
+            x: 18.0
+            y: -3.0
+        }
+        {
+            dependencies: ["26D40ACD293B755F"]
+            description: ["{quest.70BC973DDE20E507.quests.22.description.0}"]
+            id: "2957768A3379D050"
+            tasks: [
+                {
+                    id: "7D8144FDB8660A41"
+                    item: "industrialforegoing:animal_rancher"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: -6.0
+        }
+        {
+            dependencies: ["016975B692C6ABAB"]
+            description: ["{quest.70BC973DDE20E507.quests.23.description.0}"]
+            id: "0AC6F6A6B40DBB5B"
+            tasks: [
+                { id: "4E437310A4041F2A", item: "kubejs:pixie_mana_bucket", type: "item" }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["075696C9267A1E4D", "26D40ACD293B755F", "58049883B7BE6D96"]
+            id: "0ED0FEBA19B25941"
+            tasks: [
+                {
+                    id: "77457343587ECC19"
+                    item: "industrialforegoing:fluid_laser_base"
+                    type: "item"
+                }
+            ]
+            x: 18.0
+            y: 0.0
+        }
+        {
+            dependencies: ["0ED0FEBA19B25941"]
+            id: "556AB7AFC0126B19"
+            tasks: [
+                {
+                    id: "5A20467F249487A3"
+                    item: "industrialforegoing:ether_gas_bucket"
+                    type: "item"
+                }
+            ]
+            x: 21.0
+            y: -3.0
+        }
+        {
+            dependencies: ["0ED0FEBA19B25941"]
+            id: "3C386E08D08EAD88"
+            tasks: [
+                {
+                    id: "2D37BEE75B4AED67"
+                    item: "bloodmagic:life_essence_bucket"
+                    type: "item"
+                }
+            ]
+            x: 21.0
+            y: 0.0
+        }
+    ]
+    title: "{quest.70BC973DDE20E507.title}"
+}

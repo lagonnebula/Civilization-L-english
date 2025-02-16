@@ -1,0 +1,176 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "7136232AC6D247D0"
+    group: ""
+    icon: "reliquary:fortune_coin"
+    id: "7136232AC6D247D0"
+    order_index: 1
+    quest_links: []
+    quests: [
+        {
+            description: [
+                "{quest.7136232AC6D247D0.quests.0.description.0}"
+                ""
+                "{quest.7136232AC6D247D0.quests.0.description.2}"
+            ]
+            id: "1004C86BDA58C8F4"
+            tasks: [
+                {
+                    id: "391338558C6CD7CB"
+                    title: "{quest.7136232AC6D247D0.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            can_repeat: true
+            dependencies: ["1004C86BDA58C8F4"]
+            description: [
+                "{quest.7136232AC6D247D0.quests.1.description.0}"
+                "{quest.7136232AC6D247D0.quests.1.description.1}"
+                ""
+                "{quest.7136232AC6D247D0.quests.1.description.3}"
+                "{quest.7136232AC6D247D0.quests.1.description.4}"
+                ""
+                "{quest.7136232AC6D247D0.quests.1.description.6}"
+                ""
+                "{quest.7136232AC6D247D0.quests.1.description.8}"
+                "{quest.7136232AC6D247D0.quests.1.description.9}"
+            ]
+            id: "767DCC2C179DDAD7"
+            rewards: [{ id: "7D26F64B6050BEE6", item: "kubejs:jigsaw_final", type: "item" }]
+            tasks: [
+                {
+                    id: "0405A966CE219B3D"
+                    title: "{quest.7136232AC6D247D0.quests.1.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            can_repeat: true
+            description: ["{quest.7136232AC6D247D0.quests.2.description.0}"]
+            id: "516024C4B0B07CA2"
+            rewards: [
+                {
+                    exclude_from_claim_all: true
+                    id: "2B4D59A14F4E9625"
+                    table_id: 8645974511553231186l
+                    type: "random"
+                }
+            ]
+            tasks: [
+                {
+                    consume_items: true
+                    id: "74BF25F1D0083D06"
+                    item: "thermalendergy:stellarium_coin"
+                    type: "item"
+                }
+            ]
+            title: "{quest.7136232AC6D247D0.quests.2.title}"
+            x: -3.0
+            y: 6.0
+        }
+        {
+            can_repeat: true
+            description: ["{quest.7136232AC6D247D0.quests.3.description.0}"]
+            id: "531C0B6D63457A20"
+            rewards: [
+                {
+                    exclude_from_claim_all: true
+                    id: "00B424F7F7A44DE3"
+                    table_id: 2740391557627109322l
+                    type: "random"
+                }
+            ]
+            tasks: [
+                {
+                    consume_items: true
+                    id: "62AE540A2E392A3A"
+                    item: "thermalendergy:stellarium_coin"
+                    type: "item"
+                }
+            ]
+            title: "{quest.7136232AC6D247D0.quests.3.title}"
+            x: -3.0
+            y: 9.0
+        }
+        {
+            can_repeat: true
+            description: ["{quest.7136232AC6D247D0.quests.4.description.0}"]
+            id: "65CF08468BCBE8FC"
+            rewards: [
+                {
+                    exclude_from_claim_all: true
+                    id: "1FE05F3760AFC388"
+                    table_id: 8645974511553231186l
+                    type: "choice"
+                }
+            ]
+            tasks: [
+                {
+                    consume_items: true
+                    count: 4l
+                    id: "0FB22A964D6F7188"
+                    item: "thermalendergy:stellarium_coin"
+                    type: "item"
+                }
+            ]
+            title: "{quest.7136232AC6D247D0.quests.4.title}"
+            x: 0.0
+            y: 6.0
+        }
+        {
+            can_repeat: true
+            description: ["{quest.7136232AC6D247D0.quests.5.description.0}"]
+            id: "383EBCE1A542A8AB"
+            rewards: [
+                {
+                    exclude_from_claim_all: true
+                    id: "3AB46DC91AE771DB"
+                    table_id: 2740391557627109322l
+                    type: "choice"
+                }
+            ]
+            tasks: [
+                {
+                    consume_items: true
+                    count: 4l
+                    id: "0CE852F0EEF90724"
+                    item: "thermalendergy:stellarium_coin"
+                    type: "item"
+                }
+            ]
+            title: "{quest.7136232AC6D247D0.quests.5.title}"
+            x: 0.0
+            y: 9.0
+        }
+        {
+            can_repeat: true
+            dependencies: ["1004C86BDA58C8F4"]
+            description: [
+                "{quest.7136232AC6D247D0.quests.6.description.0}"
+                ""
+                "{quest.7136232AC6D247D0.quests.6.description.2}"
+                "{quest.7136232AC6D247D0.quests.6.description.3}"
+                ""
+                "{quest.7136232AC6D247D0.quests.6.description.5}"
+                "{quest.7136232AC6D247D0.quests.6.description.6}"
+                ""
+                "{quest.7136232AC6D247D0.quests.6.description.8}"
+                "{quest.7136232AC6D247D0.quests.6.description.9}"
+            ]
+            id: "15F876F80BE4B37B"
+            rewards: [{ id: "3740E32138ADE7BF", item: "kubejs:start_2048", type: "item" }]
+            tasks: [{ id: "6534078C4DD2E5E0", title: "2048", type: "checkmark" }]
+            x: 0.0
+            y: 3.0
+        }
+    ]
+    title: "{quest.7136232AC6D247D0.title}"
+}

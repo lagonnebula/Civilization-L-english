@@ -1,0 +1,138 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "01B113AC59DC691F"
+    group: ""
+    icon: { Count: 1, id: "constructionwand:infinity_wand", tag: { wand_options: {} } }
+    id: "01B113AC59DC691F"
+    order_index: 3
+    quest_links: []
+    quests: [
+        {
+            id: "2D7044031473A468"
+            tasks: [
+                {
+                    id: "38804C02AC472F7E"
+                    item: { Count: 1, id: "entangled:block", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "79BAC6B3932CB745"
+            tasks: [
+                {
+                    id: "27D3FFC963F85CAF"
+                    item: {
+                        Count: 1
+                        id: "enderchests:ender_chest"
+                        tag: { code: "000", owner: "all" }
+                    }
+                    type: "item"
+                }
+                {
+                    id: "45A5FECED60CA081"
+                    item: { Count: 1, id: "endertanks:ender_tank", tag: { code: "000", owner: "all" } }
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "36AD204427778189"
+            tasks: [
+                {
+                    id: "2CE58AF8F55FE862"
+                    item: { Count: 1, id: "shrink:shrinking_device", tag: {} }
+                    type: "item"
+                }
+                { id: "182E4964B0DDA570", item: "shrink:mob_bottle", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "788DD95A003A703D"
+            tasks: [
+                {
+                    id: "1548E1D2DA12DAD2"
+                    item: { Count: 1, id: "constructionwand:infinity_wand", tag: { wand_options: {} } }
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "44D9655AAFD0292B"
+            tasks: [
+                {
+                    id: "681BCDFFA6BDADA6"
+                    item: "buildinggadgets2:gadget_building"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "0FB91F80B2FBE88F"
+            tasks: [
+                { id: "336253F72FC091B9", item: "dimstorage:dimensional_chest", type: "item" }
+                { id: "69EA533347CF9E9F", item: "dimstorage:dimensional_tank", type: "item" }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "49A6201FBDA4FE4C"
+            tasks: [{ id: "69628C0704EA5771", item: "xnet:controller", type: "item" }]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "71AC7178D44A394C"
+            tasks: [{ id: "30C49CB52CA4ADAA", item: "sfm:manager", type: "item" }]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "542EC470D725AF59"
+            tasks: [{ id: "3C2FB77B28A5E548", item: "angelring:angel_ring", type: "item" }]
+            x: -3.0
+            y: -6.0
+        }
+        {
+            id: "2B23C371266E1D73"
+            tasks: [
+                {
+                    id: "4E040B64B2A09177"
+                    item: { Count: 1, id: "tiab:time_in_a_bottle", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            id: "0D5CB9330413EDC3"
+            tasks: [
+                { id: "1CDDDF322A8D88AB", item: "glassential:glass_ethereal", type: "item" }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "1DC67058959C3C3A"
+            tasks: [
+                { id: "6C5D8339CBD47C5E", item: "fluxnetworks:flux_controller", type: "item" }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+    ]
+    title: "{quest.01B113AC59DC691F.title}"
+}

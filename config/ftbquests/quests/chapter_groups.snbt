@@ -1,0 +1,12 @@
+{
+    chapter_groups: [
+        {
+            id: "38304CE116D42477"
+            title: "{quest.chapter_groups.chapter_groups.0.title}"
+        }
+        {
+            id: "0B7D666BC0BB1684"
+            title: "{quest.chapter_groups.chapter_groups.1.title}"
+        }
+    ]
+}

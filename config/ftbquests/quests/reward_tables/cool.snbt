@@ -1,0 +1,62 @@
+{
+    id: "77FCAC028A363952"
+    loot_size: 1
+    order_index: 0
+    rewards: [
+        { item: { Count: 1, id: "reliquary:magicbane", tag: { Damage: 0 } } }
+        { item: "reliquary:salamander_eye" }
+        { item: { Count: 1, id: "reliquary:serpent_staff", tag: { Damage: 0 } } }
+        { item: "reliquary:shears_of_winter" }
+        { item: "reliquary:twilight_cloak" }
+        { item: "reliquary:glowing_bread" }
+        { item: "reliquary:fertile_lily_pad" }
+        { item: { Count: 1, id: "reliquary:mercy_cross", tag: { Damage: 0 } } }
+        { item: "reliquary:angelheart_vial" }
+        { item: "reliquary:angelic_feather" }
+        { item: "reliquary:aphrodite_potion" }
+        { item: "reliquary:destruction_catalyst" }
+        { item: "reliquary:emperor_chalice" }
+        {
+            item: {
+                Count: 1
+                ForgeCaps: {
+                    Parent: {
+                        Items: [{ amount: 0, filter: { Count: 1b, id: "minecraft:ender_pearl" } }]
+                    }
+                }
+                id: "reliquary:ender_staff"
+            }
+        }
+        { item: "reliquary:fertile_potion" }
+        { item: "reliquary:fortune_coin" }
+        { item: "reliquary:glacial_staff" }
+        { item: "reliquary:glowing_water" }
+        { item: "reliquary:holy_hand_grenade" }
+        { item: "reliquary:handgun" }
+        { item: "reliquary:hero_medallion" }
+        { item: "reliquary:ice_magus_rod" }
+        { item: "reliquary:infernal_claws" }
+        { item: "reliquary:infernal_chalice" }
+        { item: "reliquary:infernal_tear" }
+        { item: "reliquary:kraken_shell" }
+        { item: "reliquary:midas_touchstone" }
+        { item: "reliquary:phoenix_down" }
+        { item: "reliquary:pyromancer_staff" }
+        {
+            item: {
+                Count: 1
+                ForgeCaps: {
+                    Parent: { Items: [{ amount: 0, filter: { Count: 1b, id: "minecraft:feather" } }] }
+                }
+                id: "reliquary:rending_gale"
+            }
+        }
+        { item: "reliquary:rod_of_lyssa" }
+        { item: "reliquary:sojourner_staff" }
+        {
+            item: { Count: 1, ForgeCaps: { Parent: { Items: [] } }, id: "reliquary:void_tear" }
+        }
+        { item: "reliquary:witherless_rose" }
+    ]
+    title: "shop 1"
+}

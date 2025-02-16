@@ -1,0 +1,173 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "4E8A6E5802D4B85B"
+    group: "38304CE116D42477"
+    icon: "occultism:spirit_fire"
+    id: "4E8A6E5802D4B85B"
+    order_index: 5
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["0AC6F6A6B40DBB5B", "2C08FD57386D6F5E"]
+            description: [
+                "{quest.4E8A6E5802D4B85B.quests.0.description.0}"
+                ""
+                ""
+                "{quest.4E8A6E5802D4B85B.quests.0.description.3}"
+            ]
+            id: "62C9C4A8D920FF8B"
+            tasks: [
+                {
+                    id: "6389687F2F8DAE75"
+                    item: { Count: 1, id: "occultism:otherworld_sapling_natural", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["62C9C4A8D920FF8B"]
+            id: "3E94794129AE4E5B"
+            tasks: [
+                { id: "17FC3B16780020A5", item: "occultism:otherworld_log", type: "item" }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2C08FD57386D6F5E"]
+            id: "419A3B5C2B093F1E"
+            tasks: [{ id: "607A34445852C89F", item: "occultism:otherstone", type: "item" }]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["419A3B5C2B093F1E", "137D62F86B579D39"]
+            id: "471A99F9C29786CC"
+            tasks: [
+                { id: "3329407D6F074CD8", item: "occultism:burnt_otherstone", type: "item" }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            dependencies: ["3E94794129AE4E5B", "137D62F86B579D39"]
+            id: "18DDEDF16789F8F9"
+            tasks: [
+                { id: "0A7ACF2BC70F7266", item: "occultism:otherworld_ashes", type: "item" }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["471A99F9C29786CC", "18DDEDF16789F8F9"]
+            id: "0DAFE807575AA161"
+            tasks: [
+                {
+                    id: "1C570FC41F1343BB"
+                    item: { Count: 1, id: "occultism:chalk_white", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["471A99F9C29786CC", "18DDEDF16789F8F9"]
+            id: "229407506D3A9C58"
+            tasks: [
+                {
+                    id: "7658C3A297C0B8DD"
+                    item: { Count: 1, id: "occultism:chalk_gold", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["0DAFE807575AA161", "6808553464CFB1A5"]
+            id: "58049883B7BE6D96"
+            tasks: [
+                { id: "46675CC88F4C4D5F", item: "occultism:afrit_essence", type: "item" }
+            ]
+            x: 12.0
+            y: 0.0
+        }
+        {
+            dependencies: ["58049883B7BE6D96"]
+            id: "7C2DC34013A76F25"
+            tasks: [
+                {
+                    id: "5F2F3FCDAAEC359A"
+                    item: { Count: 1, id: "occultism:chalk_red", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 0.0
+        }
+        {
+            dependencies: ["7C2DC34013A76F25"]
+            description: [
+                "{quest.4E8A6E5802D4B85B.quests.9.description.0}"
+                "{quest.4E8A6E5802D4B85B.quests.9.description.1}"
+            ]
+            id: "5FC0C9E17D866B89"
+            tasks: [
+                {
+                    id: "1E3343C0065C84F5"
+                    item: { Count: 1, id: "occultism:soul_gem", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: -3.0
+        }
+        {
+            dependencies: ["58049883B7BE6D96"]
+            id: "494E3DF956063254"
+            tasks: [
+                { id: "73E1F8BD1FF52400", item: "telepastries:end_cake", type: "item" }
+            ]
+            x: 12.0
+            y: -3.0
+        }
+        {
+            dependencies: ["494E3DF956063254"]
+            id: "3948FCB0AC1657E2"
+            shape: "gear"
+            tasks: [
+                { dimension: "minecraft:the_end", id: "2CB40BFAFEE0A49C", type: "dimension" }
+            ]
+            title: "{quest.4E8A6E5802D4B85B.quests.11.title}"
+            x: 12.0
+            y: -6.0
+        }
+        {
+            dependencies: ["32887DF70FCA0077"]
+            id: "6808553464CFB1A5"
+            tasks: [
+                {
+                    id: "40C073FA048F1D36"
+                    item: { Count: 1, id: "occultism:chalk_purple", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["0DAFE807575AA161", "657CE0D8639D275A"]
+            id: "32887DF70FCA0077"
+            tasks: [
+                { id: "36B56422FFAD6F1B", item: "occultism:crushed_end_stone", type: "item" }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+    ]
+    title: "{quest.4E8A6E5802D4B85B.title}"
+}

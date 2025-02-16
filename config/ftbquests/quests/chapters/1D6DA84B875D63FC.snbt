@@ -1,0 +1,128 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "1D6DA84B875D63FC"
+    group: ""
+    id: "1D6DA84B875D63FC"
+    order_index: 2
+    quest_links: []
+    quests: [
+        {
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.0.description.0}"
+                "{quest.1D6DA84B875D63FC.quests.0.description.1}"
+                ""
+                "{quest.1D6DA84B875D63FC.quests.0.description.3}"
+            ]
+            id: "324C867CA8F7C638"
+            tasks: [
+                {
+                    id: "7BA422AAB8B05E31"
+                    title: "{quest.1D6DA84B875D63FC.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4E4258BDD31F4EC1"]
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.1.description.0}"
+                ""
+                "{quest.1D6DA84B875D63FC.quests.1.description.2}"
+                ""
+                ""
+                "{quest.1D6DA84B875D63FC.quests.1.description.5}"
+                ""
+                "{quest.1D6DA84B875D63FC.quests.1.description.7}"
+            ]
+            id: "2A374BF50DE0E5D1"
+            tasks: [
+                {
+                    id: "7EF7A2DE2691D597"
+                    title: "{quest.1D6DA84B875D63FC.quests.1.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 4.0
+            y: 6.0
+        }
+        {
+            dependencies: ["324C867CA8F7C638"]
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.2.description.0}"
+                "{quest.1D6DA84B875D63FC.quests.2.description.1}"
+                "{quest.1D6DA84B875D63FC.quests.2.description.2}"
+                "{quest.1D6DA84B875D63FC.quests.2.description.3}"
+            ]
+            id: "69C45247FD6DC540"
+            tasks: [
+                {
+                    id: "33449249056ADEF8"
+                    title: "{quest.1D6DA84B875D63FC.quests.2.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: -2.0
+            y: 3.0
+        }
+        {
+            dependencies: ["324C867CA8F7C638"]
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.3.description.0}"
+                "{quest.1D6DA84B875D63FC.quests.3.description.1}"
+            ]
+            id: "4E4258BDD31F4EC1"
+            tasks: [
+                {
+                    id: "64181F3F93E405BB"
+                    title: "{quest.1D6DA84B875D63FC.quests.3.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 2.0
+            y: 3.0
+        }
+        {
+            dependencies: ["69C45247FD6DC540"]
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.4.description.0}"
+                "{quest.1D6DA84B875D63FC.quests.4.description.1}"
+                ""
+                "{quest.1D6DA84B875D63FC.quests.4.description.3}"
+                "{quest.1D6DA84B875D63FC.quests.4.description.4}"
+            ]
+            id: "28425BFD445C7AD0"
+            tasks: [
+                {
+                    id: "70E65C9029FF7260"
+                    title: "{quest.1D6DA84B875D63FC.quests.4.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: -4.0
+            y: 6.0
+        }
+        {
+            dependencies: ["69C45247FD6DC540", "4E4258BDD31F4EC1"]
+            description: [
+                "{quest.1D6DA84B875D63FC.quests.5.description.0}"
+                "{quest.1D6DA84B875D63FC.quests.5.description.1}"
+                "{quest.1D6DA84B875D63FC.quests.5.description.2}"
+                "{quest.1D6DA84B875D63FC.quests.5.description.3}"
+            ]
+            id: "238D6441138E8F2C"
+            tasks: [
+                {
+                    id: "351F32A863ABC8ED"
+                    title: "{quest.1D6DA84B875D63FC.quests.5.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+    ]
+    title: "{quest.1D6DA84B875D63FC.title}"
+}

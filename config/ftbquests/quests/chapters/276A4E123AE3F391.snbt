@@ -1,0 +1,176 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "276A4E123AE3F391"
+    group: ""
+    icon: "minecraft:milk_bucket"
+    id: "276A4E123AE3F391"
+    order_index: 0
+    quest_links: []
+    quests: [
+        {
+            description: ["{quest.276A4E123AE3F391.quests.0.description.0}"]
+            id: "71F41891D076556A"
+            tasks: [{ id: "4EE8251C756E124C", title: "Civilization", type: "checkmark" }]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: ["{quest.276A4E123AE3F391.quests.1.description.0}"]
+            id: "751EC52F132BCE2E"
+            tasks: [{ id: "5CEFADED0F8ECCAF", title: "FTB Ultimine", type: "checkmark" }]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.2.description.0}"
+                "{quest.276A4E123AE3F391.quests.2.description.1}"
+            ]
+            id: "52A1365187CE3A3B"
+            tasks: [
+                {
+                    id: "1A7F42498B52E533"
+                    title: "{quest.276A4E123AE3F391.quests.2.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.3.description.0}"
+                "{quest.276A4E123AE3F391.quests.3.description.1}"
+            ]
+            id: "72FA20443BDA8EF4"
+            tasks: [{ id: "7064241262A16034", title: "JEI", type: "checkmark" }]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.4.description.0}"
+                "{quest.276A4E123AE3F391.quests.4.description.1}"
+                "{quest.276A4E123AE3F391.quests.4.description.2}"
+                ""
+                "{quest.276A4E123AE3F391.quests.4.description.4}"
+                "{quest.276A4E123AE3F391.quests.4.description.5}"
+                "{quest.276A4E123AE3F391.quests.4.description.6}"
+            ]
+            id: "66031893E108BED4"
+            tasks: [{ id: "17436767621F3196", title: "home", type: "checkmark" }]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            can_repeat: true
+            dependencies: ["71F41891D076556A"]
+            description: ["{quest.276A4E123AE3F391.quests.5.description.0}"]
+            id: "2ACE8CBA55D4BC4F"
+            rewards: [
+                {
+                    auto: "enabled"
+                    command: "/ae2 channelmode x2"
+                    id: "36D5CF6AA1DD017B"
+                    type: "command"
+                }
+            ]
+            tasks: [{ id: "1E4ABB816BD471E8", title: "AE2", type: "checkmark" }]
+            x: -3.0
+            y: 6.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.6.description.0}"
+                "{quest.276A4E123AE3F391.quests.6.description.1}"
+                ""
+                "{quest.276A4E123AE3F391.quests.6.description.3}"
+                ""
+                "{quest.276A4E123AE3F391.quests.6.description.5}"
+                "{quest.276A4E123AE3F391.quests.6.description.6}"
+                ""
+                "{quest.276A4E123AE3F391.quests.6.description.8}"
+            ]
+            id: "44709F7D3CFA904F"
+            tasks: [{ id: "6337711517A3159C", item: "minecraft:spawner", type: "item" }]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: ["{quest.276A4E123AE3F391.quests.7.description.0}"]
+            id: "457A59E2F06B4E71"
+            tasks: [
+                { id: "034B72D325FB5794", title: "Mob Grinding Utils", type: "checkmark" }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.8.description.0}"
+                "{quest.276A4E123AE3F391.quests.8.description.1}"
+                "{quest.276A4E123AE3F391.quests.8.description.2}"
+            ]
+            id: "23A2528E1DE464FB"
+            tasks: [{ id: "3BCFA9749DE2B63B", title: "reload", type: "checkmark" }]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            can_repeat: true
+            dependencies: ["71F41891D076556A"]
+            description: ["{quest.276A4E123AE3F391.quests.9.description.0}"]
+            id: "02348E3BB2A9EBBA"
+            rewards: [
+                {
+                    auto: "enabled"
+                    command: "/ae2 channelmode default"
+                    id: "4E23F8FC522CE575"
+                    type: "command"
+                }
+            ]
+            tasks: [{ id: "1FCA1D18F3F4AE7C", title: "AE2", type: "checkmark" }]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: ["{quest.276A4E123AE3F391.quests.10.description.0}"]
+            id: "4703418780824626"
+            tasks: [{ id: "2CC5F80632F17487", title: "AE/RS", type: "checkmark" }]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["71F41891D076556A"]
+            description: [
+                "{quest.276A4E123AE3F391.quests.11.description.0}"
+                "{quest.276A4E123AE3F391.quests.11.description.1}"
+                "{quest.276A4E123AE3F391.quests.11.description.2}"
+                "{quest.276A4E123AE3F391.quests.11.description.3}"
+                "{quest.276A4E123AE3F391.quests.11.description.4}"
+            ]
+            id: "615C180C8DC903B8"
+            shape: "gear"
+            size: 4.0
+            tasks: [
+                {
+                    id: "2297EAF330D9735B"
+                    title: "{quest.276A4E123AE3F391.quests.11.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+    ]
+    title: "{quest.276A4E123AE3F391.title}"
+}

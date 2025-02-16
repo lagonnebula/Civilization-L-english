@@ -1,0 +1,326 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "3C548116E045F452"
+    group: "38304CE116D42477"
+    icon: "ae2:charged_certus_quartz_crystal"
+    id: "3C548116E045F452"
+    order_index: 4
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["56BB63BB86EDC639"]
+            id: "4A188B85FE16C4D8"
+            tasks: [{ id: "2BB091FC9A3F71D3", item: "ae2:sky_stone_block", type: "item" }]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4A188B85FE16C4D8"]
+            id: "26414F80F153A2D6"
+            tasks: [{ id: "4C0BD39B265778DC", item: "ae2:controller", type: "item" }]
+            title: "AE"
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "0EA28E42988521B7"
+            tasks: [
+                { id: "0DC1B16759C71A06", item: "ae2:energy_acceptor", type: "item" }
+                {
+                    id: "683A4F1EEA7EFD7D"
+                    item: { Count: 1, id: "ae2:energy_cell", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "164B18D3C12752EA"
+            tasks: [
+                { id: "671A44A3C6F7C1AA", item: "ae2:interface", type: "item" }
+                { id: "59F607F2E5DD87FD", item: "ae2:pattern_provider", type: "item" }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "293B5150A2151A39"
+            tasks: [
+                { id: "708DB6C52C02CA77", item: "ae2:crafting_accelerator", type: "item" }
+                { id: "636B522F65771EA5", item: "ae2:molecular_assembler", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "10C07B85CEC8BB5A"
+            tasks: [
+                { id: "35638022EE747F23", item: "ae2:crafting_terminal", type: "item" }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            dependencies: ["164B18D3C12752EA"]
+            id: "591D5E8A84E0E12D"
+            tasks: [
+                {
+                    id: "77F489104AA4B5F1"
+                    item: "expatternprovider:ex_pattern_provider"
+                    type: "item"
+                }
+                {
+                    id: "7E636C2248EF0683"
+                    item: "expatternprovider:ex_interface"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            dependencies: ["293B5150A2151A39"]
+            id: "796E528C09CFE4A3"
+            tasks: [
+                {
+                    id: "0062191CC2709C32"
+                    item: "expatternprovider:ex_molecular_assembler"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 6.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "49E88FE95D76B6D7"
+            tasks: [{ id: "598E578160AE5F2D", item: "ae2:drive", type: "item" }]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["49E88FE95D76B6D7"]
+            id: "14EA1E9A8872A7A9"
+            tasks: [
+                { id: "39583DC7AD136C1F", item: "expatternprovider:ex_drive", type: "item" }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["26414F80F153A2D6"]
+            id: "3E1084C05A24C103"
+            tasks: [{ id: "4574AF8C896A4D00", item: "ae2:inscriber", type: "item" }]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            dependencies: ["3E1084C05A24C103"]
+            id: "21D2855359431FCC"
+            tasks: [
+                {
+                    id: "1B6B6F6280AAD30C"
+                    item: "expatternprovider:ex_inscriber"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+        {
+            dependencies: ["796E528C09CFE4A3"]
+            description: [
+                "{quest.3C548116E045F452.quests.12.description.0}"
+                ""
+                "{quest.3C548116E045F452.quests.12.description.2}"
+                "{quest.3C548116E045F452.quests.12.description.3}"
+                "{quest.3C548116E045F452.quests.12.description.4}"
+                "{quest.3C548116E045F452.quests.12.description.5}"
+                "{quest.3C548116E045F452.quests.12.description.6}"
+                "{quest.3C548116E045F452.quests.12.description.7}"
+                "{quest.3C548116E045F452.quests.12.description.8}"
+            ]
+            id: "7F03A64DCC1FE4FA"
+            tasks: [
+                {
+                    id: "2B57B137DED278A5"
+                    item: "expatternprovider:assembler_matrix_frame"
+                    type: "item"
+                }
+                {
+                    id: "79FDA20608B7B101"
+                    item: "expatternprovider:assembler_matrix_wall"
+                    type: "item"
+                }
+                {
+                    id: "4E813222D557186D"
+                    item: "expatternprovider:assembler_matrix_pattern"
+                    type: "item"
+                }
+                {
+                    id: "3144A71D8B76AF3D"
+                    item: "expatternprovider:assembler_matrix_crafter"
+                    type: "item"
+                }
+                {
+                    id: "49B570F29F67B293"
+                    item: "expatternprovider:assembler_matrix_speed"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 6.0
+        }
+        {
+            dependencies: ["49E88FE95D76B6D7"]
+            id: "6F105EC9C1004B27"
+            tasks: [
+                { id: "01C23BC5C7473C81", item: "appmek:chemical_cell_housing", type: "item" }
+                {
+                    id: "009F40BA1E439A99"
+                    item: { Count: 1, id: "appmek:chemical_storage_cell_256k", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["49E88FE95D76B6D7"]
+            id: "1C9D80F97D483173"
+            tasks: [
+                { id: "315A31D91D2B5F76", item: "arseng:source_cell_housing", type: "item" }
+                { id: "5EEAA8A7CA1961AD", item: "arseng:source_acceptor", type: "item" }
+                { id: "18FA9F70C13A886F", item: "arseng:me_source_jar", type: "item" }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            dependencies: ["49E88FE95D76B6D7"]
+            id: "7697CE58D035605E"
+            tasks: [
+                { id: "2A9256BBC29E9B18", item: "appbot:mana_cell_housing", type: "item" }
+                { id: "1D047FE96059DFC0", item: "appbot:fluix_mana_pool", type: "item" }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["4A188B85FE16C4D8"]
+            id: "7D2654C6ADD9CEC2"
+            tasks: [
+                { id: "5D99EF136C5A08DE", item: "ae2:flawless_budding_quartz", type: "item" }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4A188B85FE16C4D8"]
+            id: "51B71A93F604BB16"
+            tasks: [
+                { id: "349839D4C71C7FD7", item: "refinedstorage:controller", type: "item" }
+            ]
+            title: "{quest.3C548116E045F452.quests.17.title}"
+            x: -3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["4A188B85FE16C4D8"]
+            id: "4B7ED2B6463BE040"
+            tasks: [
+                { id: "2A7F3AB2E0A445D1", item: "merequester:requester", type: "item" }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["293B5150A2151A39"]
+            description: ["{quest.3C548116E045F452.quests.19.description.0}"]
+            id: "573C9C122C07195A"
+            tasks: [
+                {
+                    id: "1AF87E0AA79B74D6"
+                    item: "bigger_ae2:4_core_crafting_accelerator"
+                    type: "item"
+                }
+                {
+                    id: "7CB19443E92A373F"
+                    item: "bigger_ae2:16_core_crafting_accelerator"
+                    type: "item"
+                }
+                {
+                    id: "18E9703A0B9FEA7F"
+                    item: "bigger_ae2:64_core_crafting_accelerator"
+                    type: "item"
+                }
+                {
+                    id: "1CAB5DC5BB024492"
+                    item: "bigger_ae2:256_core_crafting_accelerator"
+                    type: "item"
+                }
+                {
+                    id: "64220037501F7EA4"
+                    item: "bigger_ae2:1024_core_crafting_accelerator"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            dependencies: ["573C9C122C07195A"]
+            description: [
+                "{quest.3C548116E045F452.quests.20.description.0}"
+                "{quest.3C548116E045F452.quests.20.description.1}"
+            ]
+            id: "4F5B39B9190D318D"
+            tasks: [
+                {
+                    id: "21800A466C75B860"
+                    item: { Count: 1, id: "bigger_ae2:quantum_item_storage_cell", tag: {} }
+                    type: "item"
+                }
+                {
+                    id: "686728EC27B8781D"
+                    item: { Count: 1, id: "bigger_ae2:quantum_fluid_storage_cell", tag: {} }
+                    type: "item"
+                }
+            ]
+            title: "{quest.3C548116E045F452.quests.20.title}"
+            x: 3.0
+            y: 9.0
+        }
+        {
+            dependencies: ["4F5B39B9190D318D"]
+            description: [
+                "{quest.3C548116E045F452.quests.21.description.0}"
+                ""
+                "{quest.3C548116E045F452.quests.21.description.2}"
+            ]
+            id: "4C615F2892B6DC25"
+            tasks: [
+                {
+                    id: "0C48A408D6A27D8A"
+                    item: { Count: 1, id: "bigger_ae2:digital_singularity_item_storage_cell", tag: {} }
+                    type: "item"
+                }
+                {
+                    id: "01FF57C2B91C27D7"
+                    item: { Count: 1, id: "bigger_ae2:digital_singularity_fluid_storage_cell", tag: {} }
+                    type: "item"
+                }
+            ]
+            title: "{quest.3C548116E045F452.quests.21.title}"
+            x: 6.0
+            y: 9.0
+        }
+    ]
+    title: "{quest.3C548116E045F452.title}"
+}

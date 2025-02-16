@@ -1,0 +1,763 @@
+{
+    autofocus_id: "26B79313B3E643CF"
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "6F0C33C428443125"
+    group: "38304CE116D42477"
+    icon: "minecraft:diamond"
+    id: "6F0C33C428443125"
+    order_index: 0
+    quest_links: []
+    quests: [
+        {
+            description: [
+                "{quest.6F0C33C428443125.quests.0.description.0}"
+                "{quest.6F0C33C428443125.quests.0.description.1}"
+            ]
+            id: "75E701D051732479"
+            rewards: [
+                {
+                    count: 8
+                    id: "62E0F8AFD06A0B6F"
+                    item: "minecraft:grass_block"
+                    type: "item"
+                }
+            ]
+            shape: "rsquare"
+            tasks: [
+                {
+                    count: 4l
+                    id: "4163FE6DA86D397B"
+                    item: { Count: 4, id: "minecraft:dark_oak_sapling" }
+                    type: "item"
+                }
+                { id: "75DDAC28F382BF77", item: "minecraft:oak_sapling", type: "item" }
+            ]
+            title: "{quest.6F0C33C428443125.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            description: ["{quest.6F0C33C428443125.quests.1.description.0}"]
+            id: "6371851AC06E8417"
+            rewards: [{ id: "69211339B87DD079", item: "create:wrench", type: "item" }]
+            tasks: [
+                { id: "24C71A46619BCDB3", item: "ae2:crafting_terminal", type: "item" }
+            ]
+            x: 6.0
+            y: 9.0
+        }
+        {
+            dependencies: ["75E701D051732479"]
+            description: ["{quest.6F0C33C428443125.quests.2.description.0}"]
+            icon: "ars_nouveau:blue_archwood_sapling"
+            id: "7009B71381563D0F"
+            tasks: [
+                {
+                    id: "2FBB9CE17C8171F9"
+                    item: "ars_nouveau:blue_archwood_sapling"
+                    type: "item"
+                }
+                {
+                    id: "514299FEE8890938"
+                    item: "ars_nouveau:red_archwood_sapling"
+                    type: "item"
+                }
+                {
+                    id: "70534A0BB535473A"
+                    item: "ars_nouveau:purple_archwood_sapling"
+                    type: "item"
+                }
+                {
+                    id: "1A50772B41F05007"
+                    item: "ars_nouveau:green_archwood_sapling"
+                    type: "item"
+                }
+            ]
+            title: "{quest.6F0C33C428443125.quests.2.title}"
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["6371851AC06E8417"]
+            id: "71CD4B44C59ADE22"
+            tasks: [
+                {
+                    id: "6B4EFBFE7321D84F"
+                    item: { Count: 1, id: "ae2:item_storage_cell_64k", tag: {} }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 9.0
+        }
+        {
+            dependencies: ["71CD4B44C59ADE22"]
+            description: [
+                "{quest.6F0C33C428443125.quests.4.description.0}"
+                ""
+                "{quest.6F0C33C428443125.quests.4.description.2}"
+            ]
+            id: "501112E031355AFD"
+            tasks: [
+                {
+                    count: 3l
+                    id: "77242433FC9623F5"
+                    item: "ae2:cell_component_16k"
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 9.0
+        }
+        {
+            dependencies: ["7009B71381563D0F"]
+            description: ["{quest.6F0C33C428443125.quests.5.description.0}"]
+            id: "05FB7B502415B939"
+            tasks: [
+                { id: "3B3BDE9A836FB682", item: "ars_nouveau:archwood_planks", type: "item" }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["75E701D051732479"]
+            icon: "minecraft:oak_log"
+            id: "0468CE224005DEE7"
+            tasks: [
+                {
+                    id: "0A9E51DBAF69C203"
+                    item: { Count: 1, id: "itemfilters:tag", tag: { value: "minecraft:logs" } }
+                    title: "Any #minecraft:logs"
+                    type: "item"
+                }
+            ]
+            title: "{quest.6F0C33C428443125.quests.6.title}"
+            x: 0.0
+            y: 3.0
+        }
+        {
+            dependencies: ["0468CE224005DEE7"]
+            id: "666C97E9580AB07B"
+            tasks: [
+                {
+                    id: "28475488EF2623BA"
+                    item: { Count: 1, id: "opolisutilities:wooden_shears", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+        {
+            dependencies: ["666C97E9580AB07B"]
+            id: "109F6B6163BE8C81"
+            tasks: [
+                { id: "1C3115C0F68D2877", item: "opolisutilities:leafy_string", type: "item" }
+            ]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            dependencies: ["109F6B6163BE8C81"]
+            id: "2D3A6A96C43E8357"
+            tasks: [
+                {
+                    id: "7981EFD750DD0CBE"
+                    item: { Count: 1, id: "strainers:leafy_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+                { id: "50D249BA4E309AE2", item: "strainers:wooden_strainer", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["2D3A6A96C43E8357"]
+            description: [
+                "{quest.6F0C33C428443125.quests.10.description.0}"
+                "{quest.6F0C33C428443125.quests.10.description.1}"
+            ]
+            id: "429E7F6C06F4F922"
+            tasks: [
+                { id: "099651359D0230AA", item: "strainers:stone_pebble", type: "item" }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            dependencies: ["429E7F6C06F4F922"]
+            id: "0694F3C6700BF5CA"
+            tasks: [
+                { id: "5EE4F496CB6D1EF1", item: "minecraft:cobblestone", type: "item" }
+            ]
+            x: 6.0
+            y: 6.0
+        }
+        {
+            dependencies: ["0694F3C6700BF5CA"]
+            description: ["{quest.6F0C33C428443125.quests.12.description.0}"]
+            id: "774C4818FC8A975B"
+            tasks: [{ id: "2DA5C90B5B89177C", item: "minecraft:sand", type: "item" }]
+            x: 9.0
+            y: 6.0
+        }
+        {
+            dependencies: ["774C4818FC8A975B"]
+            description: ["{quest.6F0C33C428443125.quests.13.description.0}"]
+            id: "56CC4376398D838A"
+            tasks: [{ id: "51F51863804BA0DE", item: "minecraft:glass", type: "item" }]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["05FB7B502415B939", "56CC4376398D838A"]
+            id: "2BF448696B6C9C11"
+            tasks: [
+                { id: "20D348D7604EC9EA", item: "ars_nouveau:scribes_table", type: "item" }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["2BF448696B6C9C11"]
+            description: [
+                "{quest.6F0C33C428443125.quests.15.description.0}"
+                "{quest.6F0C33C428443125.quests.15.description.1}"
+            ]
+            id: "4B5C1F088AE6D911"
+            tasks: [
+                { id: "1688620F51F2AEAF", item: "ars_nouveau:glyph_lightning", type: "item" }
+            ]
+            x: 12.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4B5C1F088AE6D911"]
+            description: [
+                "{quest.6F0C33C428443125.quests.16.description.0}"
+                ""
+                "{quest.6F0C33C428443125.quests.16.description.2}"
+                "{quest.6F0C33C428443125.quests.16.description.3}"
+                ""
+                "{quest.6F0C33C428443125.quests.16.description.5}"
+                "{quest.6F0C33C428443125.quests.16.description.6}"
+                ""
+                "{quest.6F0C33C428443125.quests.16.description.8}"
+                "{quest.6F0C33C428443125.quests.16.description.9}"
+                "{quest.6F0C33C428443125.quests.16.description.10}"
+                "{quest.6F0C33C428443125.quests.16.description.11}"
+                "{quest.6F0C33C428443125.quests.16.description.12}"
+            ]
+            id: "21A114469B51A242"
+            tasks: [
+                { id: "2C64E7A8C6364E50", item: "create:copper_nugget", type: "item" }
+                { id: "406638857DDF8F80", item: "minecraft:gold_nugget", type: "item" }
+                { id: "6BC55D246DE918A2", item: "strainers:stone_pebble", type: "item" }
+                { id: "66FD2301359BA00D", item: "minecraft:iron_nugget", type: "item" }
+            ]
+            title: "{quest.6F0C33C428443125.quests.16.title}"
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["501112E031355AFD", "21A114469B51A242"]
+            description: [
+                "{quest.6F0C33C428443125.quests.17.description.0}"
+                ""
+                "{quest.6F0C33C428443125.quests.17.description.2}"
+            ]
+            id: "63A7F142773098D3"
+            tasks: [
+                {
+                    id: "1A14087E40B28373"
+                    item: {
+                        Count: 1
+                        id: "expatternprovider:infinity_cell"
+                        tag: { record: { "#c": "ae2:i", id: "minecraft:cobblestone" } }
+                    }
+                    type: "item"
+                }
+                {
+                    id: "31599307A8535879"
+                    item: {
+                        Count: 1
+                        id: "expatternprovider:infinity_cell"
+                        tag: { record: { "#c": "ae2:f", id: "minecraft:water" } }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 6.0
+        }
+        {
+            dependencies: ["21A114469B51A242"]
+            description: [
+                "{quest.6F0C33C428443125.quests.18.description.0}"
+                "{quest.6F0C33C428443125.quests.18.description.1}"
+            ]
+            id: "6B3BB210706DE67D"
+            tasks: [
+                {
+                    id: "340BC4827C62FC24"
+                    item: { Count: 1, id: "strainers:copper_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 3.0
+        }
+        {
+            dependencies: ["6B3BB210706DE67D"]
+            description: [
+                "{quest.6F0C33C428443125.quests.19.description.0}"
+                "{quest.6F0C33C428443125.quests.19.description.1}"
+            ]
+            id: "142D279F1019BC2F"
+            tasks: [
+                {
+                    id: "42459EA2F5B153EE"
+                    item: { Count: 1, id: "strainers:iron_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 0.0
+        }
+        {
+            dependencies: ["142D279F1019BC2F"]
+            description: [
+                "{quest.6F0C33C428443125.quests.20.description.0}"
+                "{quest.6F0C33C428443125.quests.20.description.1}"
+            ]
+            id: "2600DDE1F3C169C7"
+            tasks: [
+                {
+                    id: "1D4028C19855C9E2"
+                    item: { Count: 1, id: "strainers:quartz_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: -3.0
+        }
+        {
+            dependencies: ["2600DDE1F3C169C7"]
+            description: [
+                "{quest.6F0C33C428443125.quests.21.description.0}"
+                "{quest.6F0C33C428443125.quests.21.description.1}"
+                ""
+                "{quest.6F0C33C428443125.quests.21.description.3}"
+                ""
+                "{quest.6F0C33C428443125.quests.21.description.5}"
+            ]
+            id: "1E07C469C78CB0E1"
+            rewards: [{ id: "7554B42C6C9FB242", item: "minecraft:diamond", type: "item" }]
+            tasks: [
+                {
+                    id: "64503D40320F6C7F"
+                    item: { Count: 1, id: "strainers:diamond_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: -3.0
+        }
+        {
+            dependencies: ["1E07C469C78CB0E1"]
+            description: [
+                "{quest.6F0C33C428443125.quests.22.description.0}"
+                "{quest.6F0C33C428443125.quests.22.description.1}"
+                ""
+                "{quest.6F0C33C428443125.quests.22.description.3}"
+                ""
+                "{quest.6F0C33C428443125.quests.22.description.5}"
+            ]
+            id: "481C9C4DA26ADDE3"
+            rewards: [
+                { id: "26064987329A3C0B", item: "minecraft:ancient_debris", type: "item" }
+            ]
+            tasks: [
+                {
+                    id: "3F1960696C68D67F"
+                    item: { Count: 1, id: "strainers:netherite_mesh", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: -3.0
+        }
+        {
+            dependencies: ["63A7F142773098D3", "6B3BB210706DE67D"]
+            description: [
+                "{quest.6F0C33C428443125.quests.23.description.0}"
+                ""
+                "{quest.6F0C33C428443125.quests.23.description.2}"
+            ]
+            id: "31912C7AAB87BD2B"
+            tasks: [{ id: "5A4AA2C652202C3A", item: "minecraft:gravel", type: "item" }]
+            x: 15.0
+            y: 6.0
+        }
+        {
+            dependencies: ["142D279F1019BC2F"]
+            id: "4CB323674E911600"
+            tasks: [
+                { id: "371473746F00BF6F", item: "minecraft:amethyst_shard", type: "item" }
+                {
+                    id: "44CFBA1BC3D22CA6"
+                    item: "ars_nouveau:imbuement_chamber"
+                    type: "item"
+                }
+            ]
+            x: 18.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4CB323674E911600"]
+            id: "33B1863DD34CFCC2"
+            rewards: [
+                {
+                    id: "568D9ACCAC773876"
+                    item: { Count: 1, id: "minecraft:flint_and_steel", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            tasks: [
+                { id: "799EABB351458860", item: "ars_nouveau:source_gem", type: "item" }
+            ]
+            x: 21.0
+            y: 0.0
+        }
+        {
+            dependencies: ["33B1863DD34CFCC2"]
+            id: "613457BA733698CC"
+            tasks: [
+                { id: "5D1E68DDD2BA2D2A", item: "ars_nouveau:sourcestone", type: "item" }
+            ]
+            x: 24.0
+            y: 0.0
+        }
+        {
+            dependencies: ["613457BA733698CC"]
+            id: "141D6584DEB89C67"
+            tasks: [
+                { id: "4D3B54D221F71CC4", item: "ars_nouveau:arcane_pedestal", type: "item" }
+            ]
+            x: 27.0
+            y: 0.0
+        }
+        {
+            dependencies: ["141D6584DEB89C67"]
+            description: ["{quest.6F0C33C428443125.quests.28.description.0}"]
+            icon: "minecraft:iron_ingot"
+            id: "4DE517857AE34A1F"
+            shape: "square"
+            tasks: [
+                { id: "66BEA3907802A79D", item: "minecraft:furnace", type: "item" }
+                { id: "75D7F840268977DD", item: "thermal:charcoal_block", type: "item" }
+                { id: "4CB3E0BD6FCE856A", item: "ars_nouveau:source_gem_block", type: "item" }
+                {
+                    id: "0233F51ABE7FCE40"
+                    item: "ars_nouveau:imbuement_chamber"
+                    type: "item"
+                }
+            ]
+            title: "{quest.6F0C33C428443125.quests.28.title}"
+            x: 27.0
+            y: -3.0
+        }
+        {
+            dependencies: ["33B1863DD34CFCC2"]
+            id: "404A22486C7DBA91"
+            tasks: [{ id: "780C7CFB2510B0A8", item: "minecraft:dirt", type: "item" }]
+            x: 21.0
+            y: -3.0
+        }
+        {
+            dependencies: ["33B1863DD34CFCC2"]
+            description: ["{quest.6F0C33C428443125.quests.30.description.0}"]
+            id: "49941FCDAB2BAC06"
+            tasks: [
+                { id: "7B7B7AF8DBDEC7CD", item: "reliquary:apothecary_mortar", type: "item" }
+                {
+                    id: "4D14957E4DCDAD57"
+                    item: "reliquary:apothecary_cauldron"
+                    type: "item"
+                }
+                { id: "251D5E906D7D60D8", item: "minecraft:campfire", type: "item" }
+            ]
+            x: 21.0
+            y: 3.0
+        }
+        {
+            dependencies: ["49941FCDAB2BAC06", "6A73CD1E57F26A62"]
+            description: ["{quest.6F0C33C428443125.quests.31.description.0}"]
+            id: "66DC1E32DBB2E67A"
+            tasks: [
+                {
+                    id: "72714393E9B722CA"
+                    item: {
+                        Count: 1
+                        id: "reliquary:potion"
+                        tag: {
+                            effects: [{ duration: 750, name: "minecraft:water_breathing", potency: 0 }]
+                        }
+                    }
+                    type: "item"
+                }
+            ]
+            x: 21.0
+            y: 6.0
+        }
+        {
+            description: ["{quest.6F0C33C428443125.quests.32.description.0}"]
+            id: "52B63F240E9D7258"
+            tasks: [
+                { id: "61DB1619F60BF1B7", item: "strainers:summoning_block", type: "item" }
+            ]
+            x: 21.0
+            y: 12.0
+        }
+        {
+            dependencies: ["52B63F240E9D7258"]
+            id: "6A73CD1E57F26A62"
+            rewards: [
+                { id: "38E8734230156BF7", item: "minecraft:nether_wart", type: "item" }
+            ]
+            tasks: [
+                { id: "6BB6808C0EE5A28F", item: "minecraft:cod", type: "item" }
+                { id: "5ED27CC23B865747", item: "reliquary:squid_beak", type: "item" }
+            ]
+            x: 21.0
+            y: 9.0
+        }
+        {
+            dependencies: ["66DC1E32DBB2E67A"]
+            description: ["{quest.6F0C33C428443125.quests.34.description.0}"]
+            id: "631BF6E5AC5A675F"
+            rewards: [
+                { count: 2, id: "09CD8ADFEC81BA4B", item: "waystones:waystone", type: "item" }
+            ]
+            tasks: [{ id: "1207A3DA8D804444", item: "artifacts:snorkel", type: "item" }]
+            x: 18.0
+            y: 3.0
+        }
+        {
+            dependencies: ["631BF6E5AC5A675F"]
+            description: ["{quest.6F0C33C428443125.quests.35.description.0}"]
+            id: "47635B2D516CA32F"
+            tasks: [
+                {
+                    id: "79B07FB695E6DC43"
+                    observe_type: 0
+                    timer: 1l
+                    title: "{quest.6F0C33C428443125.quests.35.tasks.0.title}"
+                    to_observe: "minecraft:bedrock"
+                    type: "observation"
+                }
+            ]
+            x: 18.0
+            y: 6.0
+        }
+        {
+            dependencies: ["47635B2D516CA32F"]
+            description: [
+                "{quest.6F0C33C428443125.quests.36.description.0}"
+                "{quest.6F0C33C428443125.quests.36.description.1}"
+                ""
+                ""
+                "{quest.6F0C33C428443125.quests.36.description.4}"
+                "{quest.6F0C33C428443125.quests.36.description.5}"
+                ""
+                "{quest.6F0C33C428443125.quests.36.description.7}"
+            ]
+            id: "74D167980191D4C2"
+            shape: "gear"
+            tasks: [
+                {
+                    dimension: "minecraft:the_nether"
+                    id: "672AB3965A382053"
+                    type: "dimension"
+                }
+            ]
+            title: "{quest.6F0C33C428443125.quests.36.title}"
+            x: 18.0
+            y: 9.0
+        }
+        {
+            dependencies: ["63A7F142773098D3"]
+            description: ["{quest.6F0C33C428443125.quests.37.description.0}"]
+            id: "21B814067CEF85FE"
+            tasks: [
+                { id: "00A77B1078F7FE88", item: "minecraft:lava_bucket", type: "item" }
+            ]
+            x: 15.0
+            y: 9.0
+        }
+        {
+            dependencies: [
+                "4F6F87685CBD3E78"
+                "141D6584DEB89C67"
+                "626D810E76DCAA99"
+                "6A9CDBB018C25045"
+            ]
+            id: "719CDBA757EB3921"
+            tasks: [
+                {
+                    id: "1503022966825218"
+                    item: "ars_nouveau:enchanting_apparatus"
+                    type: "item"
+                }
+                { id: "0F5518936791A5BE", item: "ars_nouveau:arcane_core", type: "item" }
+            ]
+            x: 30.0
+            y: 0.0
+        }
+        {
+            dependencies: ["719CDBA757EB3921", "5A8040A6A7A98E88", "79441EAC4BB7FED7"]
+            id: "7B0B458CB1236AAC"
+            tasks: [{ id: "788C76ECD189C4FF", item: "botania:rune_spring", type: "item" }]
+            x: 33.0
+            y: -6.0
+        }
+        {
+            dependencies: ["719CDBA757EB3921", "4F59E5ACC3FAC3E5", "4FC674DC26053AB3"]
+            id: "60FC7FE0E1C47709"
+            tasks: [{ id: "4618947DF64FF088", item: "botania:rune_summer", type: "item" }]
+            x: 33.0
+            y: -3.0
+        }
+        {
+            dependencies: ["719CDBA757EB3921", "5A8040A6A7A98E88", "4F59E5ACC3FAC3E5"]
+            id: "0732AC809AA8DB05"
+            tasks: [{ id: "2287B36876C49C03", item: "botania:rune_autumn", type: "item" }]
+            x: 33.0
+            y: 3.0
+        }
+        {
+            dependencies: ["719CDBA757EB3921", "79441EAC4BB7FED7", "4FC674DC26053AB3"]
+            id: "679E60E71D79E1B3"
+            tasks: [{ id: "0C7BB5DCC0F5F1CB", item: "botania:rune_winter", type: "item" }]
+            x: 33.0
+            y: 6.0
+        }
+        {
+            dependencies: ["141D6584DEB89C67", "5FC0C9E17D866B89", "5233D4D57B1905ED"]
+            description: [""]
+            id: "3099E21D9CA44D5C"
+            tasks: [
+                {
+                    id: "29F00D5FF93ADAED"
+                    item: "starbunclemania:source_fluid_bucket"
+                    type: "item"
+                }
+                {
+                    id: "7AB02BB4216C4547"
+                    item: "starbunclemania:fluid_sourcelink"
+                    type: "item"
+                }
+            ]
+            x: 27.0
+            y: 3.0
+        }
+        {
+            dependencies: ["613457BA733698CC"]
+            description: ["{quest.6F0C33C428443125.quests.44.description.0}"]
+            id: "64E317228968EED3"
+            tasks: [
+                { id: "48971E6834441503", item: "ars_nouveau:ritual_brazier", type: "item" }
+                {
+                    id: "2D9B8780787463ED"
+                    item: "ars_nouveau:ritual_wilden_summon"
+                    type: "item"
+                }
+            ]
+            x: 24.0
+            y: 3.0
+        }
+        {
+            dependencies: ["481C9C4DA26ADDE3"]
+            description: ["{quest.6F0C33C428443125.quests.45.description.0}"]
+            id: "57F39EC64ED14C05"
+            tasks: [
+                {
+                    id: "1DD24672599EE55A"
+                    item: {
+                        Count: 1
+                        id: "strainers:netherite_mesh"
+                        tag: { Damage: 0, Unbreakable: 1b }
+                    }
+                    type: "item"
+                }
+                { id: "0B1209A85FC7B36E", item: "minecraft:netherite_block", type: "item" }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            dependencies: ["64E317228968EED3", "349D9B08C6D91703"]
+            id: "19C71189DA927A67"
+            tasks: [
+                {
+                    id: "5806A028544451BE"
+                    item: "ars_nouveau:conjuration_essence"
+                    type: "item"
+                }
+            ]
+            x: 24.0
+            y: 6.0
+        }
+        {
+            dependencies: ["19C71189DA927A67"]
+            id: "657CE0D8639D275A"
+            shape: "hexagon"
+            tasks: [{ id: "5C5745913C6F7148", item: "minecraft:end_stone", type: "item" }]
+            x: 27.0
+            y: 6.0
+        }
+        {
+            dependencies: ["52B63F240E9D7258"]
+            id: "349D9B08C6D91703"
+            tasks: [
+                {
+                    id: "07551B8CEA94043B"
+                    item: "ars_nouveau:starbuncle_shards"
+                    type: "item"
+                }
+            ]
+            x: 24.0
+            y: 12.0
+        }
+        {
+            dependencies: ["719CDBA757EB3921"]
+            id: "139509D209E637B7"
+            tasks: [
+                {
+                    id: "63CC8A31FE9CFF62"
+                    item: { Count: 1, id: "occultism:chalk_white", tag: { Damage: 0 } }
+                    type: "item"
+                }
+                {
+                    id: "038B770CAF5E05B6"
+                    item: { Count: 1, id: "occultism:chalk_gold", tag: { Damage: 0 } }
+                    type: "item"
+                }
+                {
+                    id: "18F476E2F35A5551"
+                    item: { Count: 1, id: "occultism:chalk_purple", tag: { Damage: 0 } }
+                    type: "item"
+                }
+                {
+                    id: "6391C9F21790D6B4"
+                    item: { Count: 1, id: "occultism:chalk_red", tag: { Damage: 0 } }
+                    type: "item"
+                }
+            ]
+            x: 33.0
+            y: 0.0
+        }
+    ]
+    title: "{quest.6F0C33C428443125.title}"
+}

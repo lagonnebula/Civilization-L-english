@@ -1,0 +1,389 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "3FC92E329B46F702"
+    group: "0B7D666BC0BB1684"
+    icon: "minecraft:apple"
+    id: "3FC92E329B46F702"
+    order_index: 1
+    quest_links: []
+    quests: [
+        {
+            dependencies: [
+                "29E394365ADBEF8C"
+                "77B52E5D502FEAA3"
+                "16881ED76312CEC5"
+                "10D26AB63FDB5277"
+                "090DC04A01D1611D"
+                "2D246CD4E7C03C5C"
+                "100747525960DA19"
+                "345C6F8841EB0871"
+                "249BDE53219908DE"
+                "29244EF0D6B2DC97"
+                "1D528805D5B6A613"
+                "4F917FF91B7C9281"
+                "6920A043E465B3F0"
+                "1921CB4200D9D2AC"
+                "5D1E5C47FB4333E2"
+                "67735F85BF863D8B"
+                "6E33C64F01890CE9"
+                "097EDD4BF1701539"
+                "40A72DF645C2A90E"
+                "1CA1AD2E5BC09D32"
+                "5C4D4FE2145A09CB"
+                "6E18894A87DF5F93"
+                "2891F8F0E00BC0B5"
+                "0DC1B329E76CC59B"
+            ]
+            id: "059A9388A0EF72E7"
+            rewards: [{ id: "770C48EF9264883C", item: "kubejs:forestry_page", type: "item" }]
+            tasks: [
+                {
+                    id: "2873F6FA14C93E8E"
+                    title: "{quest.3FC92E329B46F702.quests.0.tasks.0.title}"
+                    type: "checkmark"
+                }
+            ]
+            title: "{quest.3FC92E329B46F702.quests.0.title}"
+            x: 0.0
+            y: 0.0
+        }
+        {
+            id: "4F917FF91B7C9281"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "4250CD88A0D713E7"
+                    item: "croptopia:almond"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            id: "6E33C64F01890CE9"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "5BD12D288D002C82"
+                    item: "minecraft:apple"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            id: "090DC04A01D1611D"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "7E090CF662F414D3"
+                    item: "croptopia:apricot"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            id: "67735F85BF863D8B"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3DF042CE4791EC8F"
+                    item: "croptopia:avocado"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            id: "5C4D4FE2145A09CB"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "68B688A6F63EC57B"
+                    item: "croptopia:banana"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            id: "29244EF0D6B2DC97"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "1E3228D2121CD4A8"
+                    item: "croptopia:cashew"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            id: "29E394365ADBEF8C"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "006572D8FA881D1D"
+                    item: "croptopia:cherry"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            id: "16881ED76312CEC5"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "1654530830F53BA6"
+                    item: "croptopia:coconut"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            id: "6920A043E465B3F0"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "201006CD329C38B8"
+                    item: "croptopia:date"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -6.0
+        }
+        {
+            id: "1921CB4200D9D2AC"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "00D80FCC26536E1F"
+                    item: "croptopia:dragonfruit"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: -6.0
+        }
+        {
+            id: "249BDE53219908DE"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "6CBF8DE481B0E59F"
+                    item: "croptopia:fig"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            id: "10D26AB63FDB5277"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "429E342E5D28C55A"
+                    item: "croptopia:grapefruit"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: -6.0
+        }
+        {
+            id: "097EDD4BF1701539"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "7463053AD22E87B0"
+                    item: "croptopia:kumquat"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -6.0
+        }
+        {
+            id: "2891F8F0E00BC0B5"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "2DC800FC73191CBC"
+                    item: "croptopia:lemon"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            id: "345C6F8841EB0871"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "04C9C2E2D6A5038A"
+                    item: "croptopia:lime"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: -3.0
+        }
+        {
+            id: "0DC1B329E76CC59B"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "3EC7D83851CCE065"
+                    item: "croptopia:mango"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 0.0
+        }
+        {
+            id: "40A72DF645C2A90E"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "4978CB715FA42C2A"
+                    item: "croptopia:nectarine"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            id: "77B52E5D502FEAA3"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "2DFC30E8CD10118C"
+                    item: "croptopia:nutmeg"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 3.0
+        }
+        {
+            id: "6E18894A87DF5F93"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "45896CD054AB6FDC"
+                    item: "croptopia:orange"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            id: "1D528805D5B6A613"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "305F00CB9963694A"
+                    item: "croptopia:peach"
+                    type: "item"
+                }
+            ]
+            x: -6.0
+            y: 6.0
+        }
+        {
+            id: "2D246CD4E7C03C5C"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "6D91A0BD5052079E"
+                    item: "croptopia:pear"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 6.0
+        }
+        {
+            id: "1CA1AD2E5BC09D32"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "33A4BC862D85389D"
+                    item: "croptopia:persimmon"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: 6.0
+        }
+        {
+            id: "5D1E5C47FB4333E2"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "2A1C5372FB4F8A13"
+                    item: "croptopia:plum"
+                    type: "item"
+                }
+            ]
+            x: 3.0
+            y: 6.0
+        }
+        {
+            id: "100747525960DA19"
+            tasks: [
+                {
+                    consume_items: true
+                    count: 200l
+                    id: "48A2A614EE7D2437"
+                    item: "croptopia:starfruit"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 6.0
+        }
+    ]
+    title: "{quest.3FC92E329B46F702.title}"
+}

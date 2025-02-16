@@ -1,0 +1,329 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "03D822E89F168C98"
+    group: "38304CE116D42477"
+    icon: "thermal:signalum_glass"
+    id: "03D822E89F168C98"
+    order_index: 6
+    quest_links: []
+    quests: [
+        {
+            dependencies: ["6808553464CFB1A5"]
+            id: "1051528AC3E3C7C4"
+            tasks: [
+                { id: "656C2FCED6C403F5", item: "thermal:machine_frame", type: "item" }
+            ]
+            x: 0.0
+            y: 0.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "7857B990B11D3C35"
+            tasks: [
+                { id: "7372E86346D51117", item: "thermal:machine_smelter", type: "item" }
+            ]
+            x: 3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["7857B990B11D3C35"]
+            id: "49E81A3A99E13B43"
+            tasks: [
+                { id: "6950F229620E04B9", item: "thermal:upgrade_augment_1", type: "item" }
+            ]
+            x: 3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["49E81A3A99E13B43"]
+            id: "3E9CD6544D63D601"
+            tasks: [
+                { id: "00631AAC942F91E4", item: "thermal:upgrade_augment_2", type: "item" }
+            ]
+            x: 6.0
+            y: 3.0
+        }
+        {
+            dependencies: ["3E9CD6544D63D601"]
+            id: "44A3A98116642503"
+            tasks: [
+                { id: "526CF49708EF6BAC", item: "thermal:upgrade_augment_3", type: "item" }
+            ]
+            x: 9.0
+            y: 3.0
+        }
+        {
+            dependencies: ["44A3A98116642503"]
+            id: "6158DACAB3D34080"
+            tasks: [
+                {
+                    id: "0038711179789D16"
+                    item: "thermal_extra:upgrade_augment"
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 3.0
+        }
+        {
+            dependencies: ["6158DACAB3D34080"]
+            id: "7139A8B985921467"
+            tasks: [
+                {
+                    id: "7DEECCF85379F215"
+                    item: "thermal_extra:abyssal_upgrade_augment"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 3.0
+        }
+        {
+            dependencies: ["7139A8B985921467"]
+            id: "769A093D766A7078"
+            tasks: [
+                {
+                    id: "0DAC78B2DFB372F3"
+                    item: "thermalendergy:endergy_upgrade_2"
+                    type: "item"
+                }
+            ]
+            x: 18.0
+            y: 3.0
+        }
+        {
+            dependencies: ["769A093D766A7078"]
+            id: "233BE45122234374"
+            tasks: [
+                {
+                    id: "7AD3BFFB5D0B771D"
+                    item: "thermalendergy:endergy_upgrade_3"
+                    type: "item"
+                }
+            ]
+            x: 21.0
+            y: 3.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "04000BF21F7CDADB"
+            tasks: [
+                { id: "0EDECB29640E06E7", item: "thermal:machine_crucible", type: "item" }
+            ]
+            x: 0.0
+            y: -3.0
+        }
+        {
+            dependencies: ["04000BF21F7CDADB"]
+            id: "14631762BD6F5E85"
+            tasks: [
+                { id: "25175E0673B65CDF", item: "minecraft:lava_bucket", type: "item" }
+            ]
+            x: -3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["04000BF21F7CDADB"]
+            description: ["{quest.03D822E89F168C98.quests.11.description.0}"]
+            id: "5233D4D57B1905ED"
+            tasks: [
+                {
+                    id: "66443F691AFC90F5"
+                    item: "starbunclemania:source_fluid_bucket"
+                    type: "item"
+                }
+            ]
+            x: 0.0
+            y: -6.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "19C5797640AE3E4D"
+            tasks: [
+                { id: "382257EA7451B88D", item: "thermal:machine_brewer", type: "item" }
+            ]
+            x: -3.0
+            y: 0.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "3C964E017F308924"
+            tasks: [
+                { id: "2B753344AFB6ED67", item: "thermal:machine_insolator", type: "item" }
+            ]
+            x: 3.0
+            y: -3.0
+        }
+        {
+            dependencies: ["3C964E017F308924"]
+            description: [
+                "{quest.03D822E89F168C98.quests.14.description.0}"
+                ""
+                "{quest.03D822E89F168C98.quests.14.description.2}"
+                ""
+                "{quest.03D822E89F168C98.quests.14.description.4}"
+                ""
+                ""
+                "{quest.03D822E89F168C98.quests.14.description.7}"
+                "{quest.03D822E89F168C98.quests.14.description.8}"
+            ]
+            id: "27FCB44E80C0E249"
+            rewards: [
+                {
+                    count: 2
+                    id: "666AA8564981307A"
+                    item: {
+                        Count: 1
+                        id: "minecraft:potion"
+                        tag: {
+                            CustomPotionEffects: [
+                                {
+                                    Ambient: 0b
+                                    Amplifier: 1b
+                                    CurativeItems: [{ Count: 1b, id: "minecraft:milk_bucket" }]
+                                    Duration: 3600
+                                    Id: 86
+                                    ShowIcon: 1b
+                                    ShowParticles: 1b
+                                    "forge:id": "ars_nouveau:recovery"
+                                }
+                                {
+                                    Ambient: 0b
+                                    Amplifier: 1b
+                                    CurativeItems: [{ Count: 1b, id: "minecraft:milk_bucket" }]
+                                    Duration: 140
+                                    Id: 87
+                                    ShowIcon: 1b
+                                    ShowParticles: 1b
+                                    "forge:id": "ars_nouveau:blasting"
+                                }
+                                {
+                                    Ambient: 0b
+                                    Amplifier: 1b
+                                    CurativeItems: [{ Count: 1b, id: "minecraft:milk_bucket" }]
+                                    Duration: 1800
+                                    Id: 88
+                                    ShowIcon: 1b
+                                    ShowParticles: 1b
+                                    "forge:id": "ars_nouveau:freezing"
+                                }
+                            ]
+                            Potion: "ars_nouveau:shielding_potion_strong"
+                        }
+                    }
+                    type: "item"
+                }
+            ]
+            tasks: [
+                { id: "2F185F16A3F54688", item: "ars_nouveau:bastion_pod", type: "item" }
+                { id: "6DF21D88D0CD2162", item: "ars_nouveau:bombegranate_pod", type: "item" }
+                { id: "1DE669FFFD9E4B4D", item: "ars_nouveau:frostaya_pod", type: "item" }
+                { id: "5FCE76EEB7F72B1F", item: "ars_nouveau:mendosteen_pod", type: "item" }
+            ]
+            x: 6.0
+            y: -3.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "5E6AF9D7A795511C"
+            tasks: [
+                {
+                    id: "090E0239625DD2FD"
+                    item: "thermal_extra:advanced_refinery"
+                    type: "item"
+                }
+            ]
+            x: -3.0
+            y: 3.0
+        }
+        {
+            dependencies: ["1051528AC3E3C7C4"]
+            id: "28E5A3B2B78AB54E"
+            tasks: [
+                { id: "1337A09A3DF005BF", item: "thermal:machine_crystallizer", type: "item" }
+            ]
+            x: 0.0
+            y: 3.0
+        }
+        {
+            dependencies: ["7857B990B11D3C35"]
+            id: "4BEE46023C46B5AB"
+            tasks: [
+                {
+                    id: "597C903B62447A41"
+                    item: "thermal:machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 6.0
+            y: 0.0
+        }
+        {
+            dependencies: ["4BEE46023C46B5AB"]
+            id: "508E47928F854DF9"
+            tasks: [
+                {
+                    id: "7E4CDB6EF782B5FD"
+                    item: "thermal_extra:soul_infused_machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 9.0
+            y: 0.0
+        }
+        {
+            dependencies: ["508E47928F854DF9"]
+            id: "10E1CE010CEEB953"
+            tasks: [
+                {
+                    id: "396947430556D6F0"
+                    item: "thermal_extra:twinite_machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 12.0
+            y: 0.0
+        }
+        {
+            dependencies: ["10E1CE010CEEB953"]
+            id: "7835C2419311B1E6"
+            tasks: [
+                {
+                    id: "0952BD7284305455"
+                    item: "thermal_extra:shellite_machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 15.0
+            y: 0.0
+        }
+        {
+            dependencies: ["7835C2419311B1E6"]
+            id: "02564952B4728F14"
+            tasks: [
+                {
+                    id: "33973D98AC1D7936"
+                    item: "thermal_extra:dragonsteel_machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 18.0
+            y: 0.0
+        }
+        {
+            dependencies: ["02564952B4728F14"]
+            id: "727EF85F808945FB"
+            tasks: [
+                {
+                    id: "59B42ADDC8E4D07B"
+                    item: "thermal_extra:abyssal_machine_speed_augment"
+                    type: "item"
+                }
+            ]
+            x: 21.0
+            y: 0.0
+        }
+    ]
+    title: "{quest.03D822E89F168C98.title}"
+}
